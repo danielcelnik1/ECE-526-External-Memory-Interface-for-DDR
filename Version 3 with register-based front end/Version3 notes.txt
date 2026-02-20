@@ -1,0 +1,13 @@
+Register additions:
+-write_trigger and read_trigger registers were added to simulate CPU-style commands to initiate transactions
+-write_addr and write_data registers were added to provide a register interface for supplying addresses and data
+-read_addr and read_data were added to enable the interface to read from memory via register requests as opposed to manually enabling read conditions
+
+The FSM was additionally updated to support the new front-end interface:
+-IDLE waits for triggers
+-ISSUE_WRITE and ISSUE_WRITE_BURST write a full burst to the memory module
+-WAIT_BEFORE_READ lets the write settle
+-ISSUE_READ and ISSUE_READ_BURST issue read commands and compare data
+-COMPLETE returns the FSM to the IDLE state
+
+The top level testbench is now simpler; it simulates CPU software controlling hardware registers instead of setting enable/control bits manually

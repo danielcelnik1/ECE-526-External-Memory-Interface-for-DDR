@@ -1,0 +1,87 @@
+In the ddr3_model.v file, we have:
+
+    input wire app_en,
+    input wire [2:0] app_cmd,         // 3'b000: write, 3'b001: read
+    input wire [27:0] app_addr,
+    input wire [127:0] app_wdf_data,
+    input wire app_wdf_wren,
+
+    output reg app_rdy,
+    output reg app_wdf_rdy,
+    output reg [127:0] app_rd_data,
+    output reg app_rd_data_valid
+
+This is a simplified version of Xilinx MIG's application interface — the signals between your controller (FSM) and the DDR memory model.
+It’s meant to abstract away the low-level DDR commands like RAS, CAS, and WE, and give you a clean, synchronous interface.
+
+app_en = application enable: "start transaction" signal used for both read and writes
+app_cmd = application command: determines write or read transaction type
+app_addr = application address: specifies memory location for read/write
+app_wdf_data = write data FIFO (data): the actual data we want to write to memory
+app_wdf_wren = write data FIFO (write enable): used with app_en during a write
+
+app_rdy = application ready: memory is ready to accept a new command
+app_wdf_rdy = write data FIFO (ready): memory is ready to accept write data, used with app_rdy
+app_rd_data = read data output: the data coming from the memory
+app_rd_data_valid = read data valid flag: indicates app_rd_data is valid
+
+
+In the ddr3_interface.v we have: 
+
+parameter S_IDLE = 3'd0,
+          S_WRITE = 3'd1,
+          S_WRITE_WAIT = 3'd2,
+          S_READ = 3'd3,
+          S_READ_WAIT = 3'd4,
+          S_COMPARE = 3'd5;
+
+S_IDLE: 
+-prepares a new test value for the current address
+-moves to S_WRITE on the next clock cycle
+
+S_WRITE:
+-waits until the DDR model is ready (app_rdy &&  app_wdf_rdy)
+-asserts all the write signals
+-moves to S_WRITE_WAIT
+
+S_WRITE_WAIT:
+-once cycle delay after writing, immediately moving to S_READ
+-de-asserts write signals at the top of the always block outside of the case statement
+
+S_READ:
+-waits for memory model to be ready again (app_rdy)
+-issues a read command and starts latency measurement
+-moves to S_READ_WAIT
+
+S_READ_WAIT:
+-increments latency_counter every cycle while waiting
+-once the memory returns valid data,
+    -latches data into read_data
+    -stops measuring latency
+    -moves to S_COMPARE
+
+S_COMPARE:
+-compares read data with expected
+-If matched:
+    -update transfer/latency counters
+    -move to next address or stops
+-If mismatch:
+    -flag FAIL and stop
+
+
+General notes:
+
+expected_data = 128'hCAFEBABE_DEADBEEF_11223344_55667788 ^ addr;
+^This line generates unique data for each address, helping with independent memory location verification
+
+initial begin
+    app_rdy = 1;
+    app_wdf_rdy = 1;
+end
+^In ddr3_model.v, this initial block ensures that the FSM will always have the state conditions meant
+
+S_IDLE: begin
+    expected_data <= base_pattern ^ addr;
+    state <= S_WRITE;
+end
+^Expected data is computed in the IDLE state and written to app_wdf_data

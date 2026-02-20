@@ -1,0 +1,10 @@
+pattern = {96'hCAFEBABEDEADBEEF11223344 ^ i, i ^ (i << 2)};            write_data_reg = pattern;
+^This line changes the pattern each burst iteration as opposed to maintaining the same write pattern for each burst write.
+The upper 96 bits are varied slightly each iteration according to i.
+The lower 32 bits are varied more visibly, as the address is xored with itself shifted left two bits.
+These are then concatenated into the full 128-bit data pattern, which is unique for each address and not just for each burst.
+
+
+Furthermore, the control flow has changed from manual write/read bursts to an automated loop over 64 bursts covering 256 unique addresses each with their own unique data pattern.
+As opposed to version 3's basic status check, this testbench reads its status on a per-burst basis plus a final summary after all 256 addresses have been written to and read from.
+This is additionally an exhaustive testbench, whereas the previous versions only covered a limited selection of addresses.

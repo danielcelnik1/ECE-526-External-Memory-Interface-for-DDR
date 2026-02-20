@@ -1,0 +1,193 @@
+Command: /home/users14/dec71046/526L/project/./simv -l Version2.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP1_Full64; Runtime version U-2023.03-SP1_Full64;  Apr  9 11:02 2025
+Starting full DDR3 system simulation with burst support...
+== New Burst @ Address 0x00000000 ==
+  [WRITE] Addr: 0x00000000 Data: 0xcafebabedeadbeef1122334455667788
+[WRITE] Addr: 0000000 Data: cafebabedeadbeef1122334455667788
+  [WRITE] Addr: 0x00000001 Data: 0xcafebabedeadbeef1122334455667789
+[WRITE] Addr: 0000001 Data: cafebabedeadbeef1122334455667789
+  [WRITE] Addr: 0x00000002 Data: 0xcafebabedeadbeef112233445566778a
+[WRITE] Addr: 0000002 Data: cafebabedeadbeef112233445566778a
+  [WRITE] Addr: 0x00000003 Data: 0xcafebabedeadbeef112233445566778b
+[WRITE] Addr: 0000003 Data: cafebabedeadbeef112233445566778b
+  [READ ] Starting burst read @ Address 0x00000000
+[READ ] Addr: 0000000
+[READ ] Addr: 0000001
+[READ ] Addr: 0000002
+[READ ] Addr: 0000003
+[RD_VALID] Data: cafebabedeadbeef1122334455667788
+  [READ ] Addr: 0x00000000 OK   Data: 0xcafebabedeadbeef1122334455667788
+[RD_VALID] Data: cafebabedeadbeef1122334455667789
+  [READ ] Addr: 0x00000001 OK   Data: 0xcafebabedeadbeef1122334455667789
+[RD_VALID] Data: cafebabedeadbeef112233445566778a
+  [READ ] Addr: 0x00000002 OK   Data: 0xcafebabedeadbeef112233445566778a
+[RD_VALID] Data: cafebabedeadbeef112233445566778b
+  [READ ] Addr: 0x00000003 OK   Data: 0xcafebabedeadbeef112233445566778b
+\n== New Burst @ Address 0x00000004 ==
+  [WRITE] Addr: 0x00000004 Data: 0xcafebabedeadbeef112233445566778c
+[WRITE] Addr: 0000004 Data: cafebabedeadbeef112233445566778c
+  [WRITE] Addr: 0x00000005 Data: 0xcafebabedeadbeef112233445566778d
+[WRITE] Addr: 0000005 Data: cafebabedeadbeef112233445566778d
+  [WRITE] Addr: 0x00000006 Data: 0xcafebabedeadbeef112233445566778e
+[WRITE] Addr: 0000006 Data: cafebabedeadbeef112233445566778e
+  [WRITE] Addr: 0x00000007 Data: 0xcafebabedeadbeef112233445566778f
+[WRITE] Addr: 0000007 Data: cafebabedeadbeef112233445566778f
+  [READ ] Starting burst read @ Address 0x00000004
+[READ ] Addr: 0000004
+[READ ] Addr: 0000005
+[READ ] Addr: 0000006
+[READ ] Addr: 0000007
+[RD_VALID] Data: cafebabedeadbeef112233445566778c
+  [READ ] Addr: 0x00000004 OK   Data: 0xcafebabedeadbeef112233445566778c
+[RD_VALID] Data: cafebabedeadbeef112233445566778d
+  [READ ] Addr: 0x00000005 OK   Data: 0xcafebabedeadbeef112233445566778d
+[RD_VALID] Data: cafebabedeadbeef112233445566778e
+  [READ ] Addr: 0x00000006 OK   Data: 0xcafebabedeadbeef112233445566778e
+[RD_VALID] Data: cafebabedeadbeef112233445566778f
+  [READ ] Addr: 0x00000007 OK   Data: 0xcafebabedeadbeef112233445566778f
+\n== New Burst @ Address 0x00000008 ==
+  [WRITE] Addr: 0x00000008 Data: 0xcafebabedeadbeef1122334455667780
+[WRITE] Addr: 0000008 Data: cafebabedeadbeef1122334455667780
+  [WRITE] Addr: 0x00000009 Data: 0xcafebabedeadbeef1122334455667781
+[WRITE] Addr: 0000009 Data: cafebabedeadbeef1122334455667781
+  [WRITE] Addr: 0x0000000a Data: 0xcafebabedeadbeef1122334455667782
+[WRITE] Addr: 000000a Data: cafebabedeadbeef1122334455667782
+  [WRITE] Addr: 0x0000000b Data: 0xcafebabedeadbeef1122334455667783
+[WRITE] Addr: 000000b Data: cafebabedeadbeef1122334455667783
+  [READ ] Starting burst read @ Address 0x00000008
+[READ ] Addr: 0000008
+[READ ] Addr: 0000009
+[READ ] Addr: 000000a
+[READ ] Addr: 000000b
+[RD_VALID] Data: cafebabedeadbeef1122334455667780
+  [READ ] Addr: 0x00000008 OK   Data: 0xcafebabedeadbeef1122334455667780
+[RD_VALID] Data: cafebabedeadbeef1122334455667781
+  [READ ] Addr: 0x00000009 OK   Data: 0xcafebabedeadbeef1122334455667781
+[RD_VALID] Data: cafebabedeadbeef1122334455667782
+  [READ ] Addr: 0x0000000a OK   Data: 0xcafebabedeadbeef1122334455667782
+[RD_VALID] Data: cafebabedeadbeef1122334455667783
+  [READ ] Addr: 0x0000000b OK   Data: 0xcafebabedeadbeef1122334455667783
+\n== New Burst @ Address 0x0000000c ==
+  [WRITE] Addr: 0x0000000c Data: 0xcafebabedeadbeef1122334455667784
+[WRITE] Addr: 000000c Data: cafebabedeadbeef1122334455667784
+  [WRITE] Addr: 0x0000000d Data: 0xcafebabedeadbeef1122334455667785
+[WRITE] Addr: 000000d Data: cafebabedeadbeef1122334455667785
+  [WRITE] Addr: 0x0000000e Data: 0xcafebabedeadbeef1122334455667786
+[WRITE] Addr: 000000e Data: cafebabedeadbeef1122334455667786
+  [WRITE] Addr: 0x0000000f Data: 0xcafebabedeadbeef1122334455667787
+[WRITE] Addr: 000000f Data: cafebabedeadbeef1122334455667787
+  [READ ] Starting burst read @ Address 0x0000000c
+[READ ] Addr: 000000c
+[READ ] Addr: 000000d
+[READ ] Addr: 000000e
+[READ ] Addr: 000000f
+[RD_VALID] Data: cafebabedeadbeef1122334455667784
+  [READ ] Addr: 0x0000000c OK   Data: 0xcafebabedeadbeef1122334455667784
+[RD_VALID] Data: cafebabedeadbeef1122334455667785
+  [READ ] Addr: 0x0000000d OK   Data: 0xcafebabedeadbeef1122334455667785
+[RD_VALID] Data: cafebabedeadbeef1122334455667786
+  [READ ] Addr: 0x0000000e OK   Data: 0xcafebabedeadbeef1122334455667786
+[RD_VALID] Data: cafebabedeadbeef1122334455667787
+  [READ ] Addr: 0x0000000f OK   Data: 0xcafebabedeadbeef1122334455667787
+\n== New Burst @ Address 0x00000010 ==
+  [WRITE] Addr: 0x00000010 Data: 0xcafebabedeadbeef1122334455667798
+[WRITE] Addr: 0000010 Data: cafebabedeadbeef1122334455667798
+  [WRITE] Addr: 0x00000011 Data: 0xcafebabedeadbeef1122334455667799
+[WRITE] Addr: 0000011 Data: cafebabedeadbeef1122334455667799
+  [WRITE] Addr: 0x00000012 Data: 0xcafebabedeadbeef112233445566779a
+[WRITE] Addr: 0000012 Data: cafebabedeadbeef112233445566779a
+  [WRITE] Addr: 0x00000013 Data: 0xcafebabedeadbeef112233445566779b
+[WRITE] Addr: 0000013 Data: cafebabedeadbeef112233445566779b
+  [READ ] Starting burst read @ Address 0x00000010
+[READ ] Addr: 0000010
+[READ ] Addr: 0000011
+[READ ] Addr: 0000012
+[READ ] Addr: 0000013
+[RD_VALID] Data: cafebabedeadbeef1122334455667798
+  [READ ] Addr: 0x00000010 OK   Data: 0xcafebabedeadbeef1122334455667798
+[RD_VALID] Data: cafebabedeadbeef1122334455667799
+  [READ ] Addr: 0x00000011 OK   Data: 0xcafebabedeadbeef1122334455667799
+[RD_VALID] Data: cafebabedeadbeef112233445566779a
+  [READ ] Addr: 0x00000012 OK   Data: 0xcafebabedeadbeef112233445566779a
+[RD_VALID] Data: cafebabedeadbeef112233445566779b
+  [READ ] Addr: 0x00000013 OK   Data: 0xcafebabedeadbeef112233445566779b
+\n== New Burst @ Address 0x00000014 ==
+  [WRITE] Addr: 0x00000014 Data: 0xcafebabedeadbeef112233445566779c
+[WRITE] Addr: 0000014 Data: cafebabedeadbeef112233445566779c
+  [WRITE] Addr: 0x00000015 Data: 0xcafebabedeadbeef112233445566779d
+[WRITE] Addr: 0000015 Data: cafebabedeadbeef112233445566779d
+  [WRITE] Addr: 0x00000016 Data: 0xcafebabedeadbeef112233445566779e
+[WRITE] Addr: 0000016 Data: cafebabedeadbeef112233445566779e
+  [WRITE] Addr: 0x00000017 Data: 0xcafebabedeadbeef112233445566779f
+[WRITE] Addr: 0000017 Data: cafebabedeadbeef112233445566779f
+  [READ ] Starting burst read @ Address 0x00000014
+[READ ] Addr: 0000014
+[READ ] Addr: 0000015
+[READ ] Addr: 0000016
+[READ ] Addr: 0000017
+[RD_VALID] Data: cafebabedeadbeef112233445566779c
+  [READ ] Addr: 0x00000014 OK   Data: 0xcafebabedeadbeef112233445566779c
+[RD_VALID] Data: cafebabedeadbeef112233445566779d
+  [READ ] Addr: 0x00000015 OK   Data: 0xcafebabedeadbeef112233445566779d
+[RD_VALID] Data: cafebabedeadbeef112233445566779e
+  [READ ] Addr: 0x00000016 OK   Data: 0xcafebabedeadbeef112233445566779e
+[RD_VALID] Data: cafebabedeadbeef112233445566779f
+  [READ ] Addr: 0x00000017 OK   Data: 0xcafebabedeadbeef112233445566779f
+\n== New Burst @ Address 0x00000018 ==
+  [WRITE] Addr: 0x00000018 Data: 0xcafebabedeadbeef1122334455667790
+[WRITE] Addr: 0000018 Data: cafebabedeadbeef1122334455667790
+  [WRITE] Addr: 0x00000019 Data: 0xcafebabedeadbeef1122334455667791
+[WRITE] Addr: 0000019 Data: cafebabedeadbeef1122334455667791
+  [WRITE] Addr: 0x0000001a Data: 0xcafebabedeadbeef1122334455667792
+[WRITE] Addr: 000001a Data: cafebabedeadbeef1122334455667792
+  [WRITE] Addr: 0x0000001b Data: 0xcafebabedeadbeef1122334455667793
+[WRITE] Addr: 000001b Data: cafebabedeadbeef1122334455667793
+  [READ ] Starting burst read @ Address 0x00000018
+[READ ] Addr: 0000018
+[READ ] Addr: 0000019
+[READ ] Addr: 000001a
+[READ ] Addr: 000001b
+[RD_VALID] Data: cafebabedeadbeef1122334455667790
+  [READ ] Addr: 0x00000018 OK   Data: 0xcafebabedeadbeef1122334455667790
+[RD_VALID] Data: cafebabedeadbeef1122334455667791
+  [READ ] Addr: 0x00000019 OK   Data: 0xcafebabedeadbeef1122334455667791
+[RD_VALID] Data: cafebabedeadbeef1122334455667792
+  [READ ] Addr: 0x0000001a OK   Data: 0xcafebabedeadbeef1122334455667792
+[RD_VALID] Data: cafebabedeadbeef1122334455667793
+  [READ ] Addr: 0x0000001b OK   Data: 0xcafebabedeadbeef1122334455667793
+\n== New Burst @ Address 0x0000001c ==
+  [WRITE] Addr: 0x0000001c Data: 0xcafebabedeadbeef1122334455667794
+[WRITE] Addr: 000001c Data: cafebabedeadbeef1122334455667794
+  [WRITE] Addr: 0x0000001d Data: 0xcafebabedeadbeef1122334455667795
+[WRITE] Addr: 000001d Data: cafebabedeadbeef1122334455667795
+  [WRITE] Addr: 0x0000001e Data: 0xcafebabedeadbeef1122334455667796
+[WRITE] Addr: 000001e Data: cafebabedeadbeef1122334455667796
+  [WRITE] Addr: 0x0000001f Data: 0xcafebabedeadbeef1122334455667797
+[WRITE] Addr: 000001f Data: cafebabedeadbeef1122334455667797
+  [READ ] Starting burst read @ Address 0x0000001c
+[READ ] Addr: 000001c
+[READ ] Addr: 000001d
+[READ ] Addr: 000001e
+[READ ] Addr: 000001f
+[RD_VALID] Data: cafebabedeadbeef1122334455667794
+  [READ ] Addr: 0x0000001c OK   Data: 0xcafebabedeadbeef1122334455667794
+[RD_VALID] Data: cafebabedeadbeef1122334455667795
+  [READ ] Addr: 0x0000001d OK   Data: 0xcafebabedeadbeef1122334455667795
+[RD_VALID] Data: cafebabedeadbeef1122334455667796
+  [READ ] Addr: 0x0000001e OK   Data: 0xcafebabedeadbeef1122334455667796
+[RD_VALID] Data: cafebabedeadbeef1122334455667797
+  [READ ] Addr: 0x0000001f OK   Data: 0xcafebabedeadbeef1122334455667797
+== New Burst @ Address 0x00000020 ==
+✅ TEST PASSED: All transfers correct.
+Transfers: 32, Total Latency: 208 cycles, Avg Latency: 6.50
+  [WRITE] Addr: 0x00000020 Data: 0xcafebabedeadbeef11223344556677a8
+[WRITE] Addr: 0000020 Data: cafebabedeadbeef11223344556677a8
+  [WRITE] Addr: 0x00000021 Data: 0xcafebabedeadbeef11223344556677a9
+$finish called from file "tb_ddr3_full_system.v", line 78.
+$finish at simulation time              3095000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3095000 ps
+CPU Time:      0.180 seconds;       Data structure size:   0.0Mb
+Wed Apr  9 11:02:44 2025

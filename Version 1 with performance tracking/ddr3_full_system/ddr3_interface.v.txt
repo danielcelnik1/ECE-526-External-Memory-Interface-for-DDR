@@ -1,0 +1,117 @@
+// ddr3_interface.v - Basic version (non-burst) with single-word read/write and verification
+module ddr3_interface (
+    input wire clk,
+    input wire rst,
+
+    input wire app_rdy,
+    input wire app_wdf_rdy,
+    input wire app_rd_data_valid,
+    input wire [127:0] app_rd_data,
+
+    output reg app_en,
+    output reg [2:0] app_cmd,
+    output reg [27:0] app_addr,
+    output reg [127:0] app_wdf_data,
+    output reg app_wdf_wren,
+
+    output reg [1:0] status,
+    output reg [31:0] transfer_counter,
+    output reg [31:0] cycle_counter
+);
+
+    reg [2:0] state;
+    parameter S_IDLE = 3'd0,
+              S_WRITE = 3'd1,
+              S_WRITE_WAIT = 3'd2,
+              S_READ = 3'd3,
+              S_READ_WAIT = 3'd4,
+              S_COMPARE = 3'd5;
+
+    parameter MAX_ADDR = 28'd32;
+
+    reg [27:0] addr;
+    reg [127:0] expected_data;
+    reg [127:0] read_data;
+    reg [31:0] latency_counter;
+    reg measuring;
+
+    always @(posedge clk) begin
+        if (rst) begin
+            state <= S_IDLE;
+            app_en <= 0;
+            app_cmd <= 0;
+            app_addr <= 0;
+            app_wdf_data <= 0;
+            app_wdf_wren <= 0;
+            addr <= 0;
+            transfer_counter <= 0;
+            cycle_counter <= 0;
+            latency_counter <= 0;
+            measuring <= 0;
+            status <= 0;
+        end else begin
+            app_en <= 0;
+            app_wdf_wren <= 0;
+
+            case (state)
+                S_IDLE: begin
+                    expected_data <= 128'hCAFEBABE_DEADBEEF_11223344_55667788 ^ addr;
+                    state <= S_WRITE;
+                end
+
+                S_WRITE: begin
+                    if (app_rdy && app_wdf_rdy) begin
+                        app_en <= 1;
+                        app_cmd <= 3'b000;
+                        app_addr <= addr;
+                        app_wdf_data <= expected_data;
+                        app_wdf_wren <= 1;
+                        state <= S_WRITE_WAIT;
+                    end
+                end
+
+                S_WRITE_WAIT: begin
+                    state <= S_READ;
+                end
+
+                S_READ: begin
+                    if (app_rdy) begin
+                        app_en <= 1;
+                        app_cmd <= 3'b001;
+                        app_addr <= addr;
+                        measuring <= 1;
+                        latency_counter <= 0;
+                        state <= S_READ_WAIT;
+                    end
+                end
+
+                S_READ_WAIT: begin
+                    if (measuring)
+                        latency_counter <= latency_counter + 1;
+                    if (app_rd_data_valid) begin
+                        read_data <= app_rd_data;
+                        measuring <= 0;
+                        state <= S_COMPARE;
+                    end
+                end
+
+                S_COMPARE: begin
+                    if (read_data == expected_data) begin
+                        transfer_counter <= transfer_counter + 1;
+                        cycle_counter <= cycle_counter + latency_counter;
+                        if (addr + 1 < MAX_ADDR) begin
+                            addr <= addr + 1;
+                            state <= S_IDLE;
+                        end else begin
+                            status <= 2'b01;
+                            state <= S_IDLE;
+                        end
+                    end else begin
+                        status <= 2'b10;
+                        state <= S_IDLE;
+                    end
+                end
+            endcase
+        end
+    end
+endmodule

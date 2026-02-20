@@ -1,0 +1,31 @@
+Command: /home/users14/dec71046/526L/project/Version3/./simv -l Version3.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP1_Full64; Runtime version U-2023.03-SP1_Full64;  Apr 16 19:23 2025
+Starting full DDR3 register interface test...
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000000
+[REGCTRL] WRITE 0x00000000 = 0xcafebabedeadbeef1122334455667788
+[REGCTRL] WRITE 0x00000001 = 0xcafebabedeadbeef1122334455667789
+[REGCTRL] WRITE 0x00000002 = 0xcafebabedeadbeef112233445566778a
+[REGCTRL] WRITE 0x00000003 = 0xcafebabedeadbeef112233445566778b
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000000
+[REGCTRL] READ request for addr 0x00000000
+[REGCTRL] READ request for addr 0x00000001
+[REGCTRL] READ request for addr 0x00000002
+[REGCTRL] READ request for addr 0x00000003
+[REGCTRL] READ OK   Addr: 0x00000000 Data: 0xcafebabedeadbeef1122334455667788
+[REGCTRL] READ OK   Addr: 0x00000001 Data: 0xcafebabedeadbeef1122334455667789
+[REGCTRL] READ OK   Addr: 0x00000002 Data: 0xcafebabedeadbeef112233445566778a
+[REGCTRL] READ OK   Addr: 0x00000003 Data: 0xcafebabedeadbeef112233445566778b
+[REGCTRL] Burst read complete and verified.
+Final Read Result: cafebabedeadbeef112233445566778b
+Status: 01
+[REGCTRL] Returning to IDLE.
+$finish called from file "ddr3_top.v", line 87.
+$finish at simulation time               495000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 495000 ps
+CPU Time:      0.170 seconds;       Data structure size:   0.0Mb
+Wed Apr 16 19:23:47 2025

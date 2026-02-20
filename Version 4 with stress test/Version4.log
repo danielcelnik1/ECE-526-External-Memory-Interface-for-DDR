@@ -1,0 +1,1234 @@
+Command: /home/users14/dec71046/526L/project/Version4/./simv -l Version4.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP1_Full64; Runtime version U-2023.03-SP1_Full64;  Apr 21 17:04 2025
+VCD+ Writer U-2023.03-SP1_Full64 Copyright (c) 1991-2023 by Synopsys Inc.
+Starting full DDR3 register interface stress test...
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000000
+[REGCTRL] WRITE 0x00000000 = 0xcafebabedeadbeef1122334400000000
+[REGCTRL] WRITE 0x00000001 = 0xcafebabedeadbeef1122334400000001
+[REGCTRL] WRITE 0x00000002 = 0xcafebabedeadbeef1122334400000002
+[REGCTRL] WRITE 0x00000003 = 0xcafebabedeadbeef1122334400000003
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000000
+[REGCTRL] READ request for addr 0x00000000
+[REGCTRL] READ request for addr 0x00000001
+[REGCTRL] READ request for addr 0x00000002
+[REGCTRL] READ request for addr 0x00000003
+[REGCTRL] READ OK   Addr: 0x00000000 Data: 0xcafebabedeadbeef1122334400000000
+[REGCTRL] READ OK   Addr: 0x00000001 Data: 0xcafebabedeadbeef1122334400000001
+[REGCTRL] READ OK   Addr: 0x00000002 Data: 0xcafebabedeadbeef1122334400000002
+[REGCTRL] READ OK   Addr: 0x00000003 Data: 0xcafebabedeadbeef1122334400000003
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000000
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000004
+[REGCTRL] WRITE 0x00000004 = 0xcafebabedeadbeef1122334000000014
+[REGCTRL] WRITE 0x00000005 = 0xcafebabedeadbeef1122334000000015
+[REGCTRL] WRITE 0x00000006 = 0xcafebabedeadbeef1122334000000016
+[REGCTRL] WRITE 0x00000007 = 0xcafebabedeadbeef1122334000000017
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000004
+[REGCTRL] READ request for addr 0x00000004
+[REGCTRL] READ request for addr 0x00000005
+[REGCTRL] READ request for addr 0x00000006
+[REGCTRL] READ request for addr 0x00000007
+[REGCTRL] READ OK   Addr: 0x00000004 Data: 0xcafebabedeadbeef1122334000000014
+[REGCTRL] READ OK   Addr: 0x00000005 Data: 0xcafebabedeadbeef1122334000000015
+[REGCTRL] READ OK   Addr: 0x00000006 Data: 0xcafebabedeadbeef1122334000000016
+[REGCTRL] READ OK   Addr: 0x00000007 Data: 0xcafebabedeadbeef1122334000000017
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000004
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000008
+[REGCTRL] WRITE 0x00000008 = 0xcafebabedeadbeef1122334c00000028
+[REGCTRL] WRITE 0x00000009 = 0xcafebabedeadbeef1122334c00000029
+[REGCTRL] WRITE 0x0000000a = 0xcafebabedeadbeef1122334c0000002a
+[REGCTRL] WRITE 0x0000000b = 0xcafebabedeadbeef1122334c0000002b
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000008
+[REGCTRL] READ request for addr 0x00000008
+[REGCTRL] READ request for addr 0x00000009
+[REGCTRL] READ request for addr 0x0000000a
+[REGCTRL] READ request for addr 0x0000000b
+[REGCTRL] READ OK   Addr: 0x00000008 Data: 0xcafebabedeadbeef1122334c00000028
+[REGCTRL] READ OK   Addr: 0x00000009 Data: 0xcafebabedeadbeef1122334c00000029
+[REGCTRL] READ OK   Addr: 0x0000000a Data: 0xcafebabedeadbeef1122334c0000002a
+[REGCTRL] READ OK   Addr: 0x0000000b Data: 0xcafebabedeadbeef1122334c0000002b
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000008
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x0000000c
+[REGCTRL] WRITE 0x0000000c = 0xcafebabedeadbeef112233480000003c
+[REGCTRL] WRITE 0x0000000d = 0xcafebabedeadbeef112233480000003d
+[REGCTRL] WRITE 0x0000000e = 0xcafebabedeadbeef112233480000003e
+[REGCTRL] WRITE 0x0000000f = 0xcafebabedeadbeef112233480000003f
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x0000000c
+[REGCTRL] READ request for addr 0x0000000c
+[REGCTRL] READ request for addr 0x0000000d
+[REGCTRL] READ request for addr 0x0000000e
+[REGCTRL] READ request for addr 0x0000000f
+[REGCTRL] READ OK   Addr: 0x0000000c Data: 0xcafebabedeadbeef112233480000003c
+[REGCTRL] READ OK   Addr: 0x0000000d Data: 0xcafebabedeadbeef112233480000003d
+[REGCTRL] READ OK   Addr: 0x0000000e Data: 0xcafebabedeadbeef112233480000003e
+[REGCTRL] READ OK   Addr: 0x0000000f Data: 0xcafebabedeadbeef112233480000003f
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x0000000c
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000010
+[REGCTRL] WRITE 0x00000010 = 0xcafebabedeadbeef1122335400000050
+[REGCTRL] WRITE 0x00000011 = 0xcafebabedeadbeef1122335400000051
+[REGCTRL] WRITE 0x00000012 = 0xcafebabedeadbeef1122335400000052
+[REGCTRL] WRITE 0x00000013 = 0xcafebabedeadbeef1122335400000053
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000010
+[REGCTRL] READ request for addr 0x00000010
+[REGCTRL] READ request for addr 0x00000011
+[REGCTRL] READ request for addr 0x00000012
+[REGCTRL] READ request for addr 0x00000013
+[REGCTRL] READ OK   Addr: 0x00000010 Data: 0xcafebabedeadbeef1122335400000050
+[REGCTRL] READ OK   Addr: 0x00000011 Data: 0xcafebabedeadbeef1122335400000051
+[REGCTRL] READ OK   Addr: 0x00000012 Data: 0xcafebabedeadbeef1122335400000052
+[REGCTRL] READ OK   Addr: 0x00000013 Data: 0xcafebabedeadbeef1122335400000053
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000010
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000014
+[REGCTRL] WRITE 0x00000014 = 0xcafebabedeadbeef1122335000000044
+[REGCTRL] WRITE 0x00000015 = 0xcafebabedeadbeef1122335000000045
+[REGCTRL] WRITE 0x00000016 = 0xcafebabedeadbeef1122335000000046
+[REGCTRL] WRITE 0x00000017 = 0xcafebabedeadbeef1122335000000047
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000014
+[REGCTRL] READ request for addr 0x00000014
+[REGCTRL] READ request for addr 0x00000015
+[REGCTRL] READ request for addr 0x00000016
+[REGCTRL] READ request for addr 0x00000017
+[REGCTRL] READ OK   Addr: 0x00000014 Data: 0xcafebabedeadbeef1122335000000044
+[REGCTRL] READ OK   Addr: 0x00000015 Data: 0xcafebabedeadbeef1122335000000045
+[REGCTRL] READ OK   Addr: 0x00000016 Data: 0xcafebabedeadbeef1122335000000046
+[REGCTRL] READ OK   Addr: 0x00000017 Data: 0xcafebabedeadbeef1122335000000047
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000014
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000018
+[REGCTRL] WRITE 0x00000018 = 0xcafebabedeadbeef1122335c00000078
+[REGCTRL] WRITE 0x00000019 = 0xcafebabedeadbeef1122335c00000079
+[REGCTRL] WRITE 0x0000001a = 0xcafebabedeadbeef1122335c0000007a
+[REGCTRL] WRITE 0x0000001b = 0xcafebabedeadbeef1122335c0000007b
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000018
+[REGCTRL] READ request for addr 0x00000018
+[REGCTRL] READ request for addr 0x00000019
+[REGCTRL] READ request for addr 0x0000001a
+[REGCTRL] READ request for addr 0x0000001b
+[REGCTRL] READ OK   Addr: 0x00000018 Data: 0xcafebabedeadbeef1122335c00000078
+[REGCTRL] READ OK   Addr: 0x00000019 Data: 0xcafebabedeadbeef1122335c00000079
+[REGCTRL] READ OK   Addr: 0x0000001a Data: 0xcafebabedeadbeef1122335c0000007a
+[REGCTRL] READ OK   Addr: 0x0000001b Data: 0xcafebabedeadbeef1122335c0000007b
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000018
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x0000001c
+[REGCTRL] WRITE 0x0000001c = 0xcafebabedeadbeef112233580000006c
+[REGCTRL] WRITE 0x0000001d = 0xcafebabedeadbeef112233580000006d
+[REGCTRL] WRITE 0x0000001e = 0xcafebabedeadbeef112233580000006e
+[REGCTRL] WRITE 0x0000001f = 0xcafebabedeadbeef112233580000006f
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x0000001c
+[REGCTRL] READ request for addr 0x0000001c
+[REGCTRL] READ request for addr 0x0000001d
+[REGCTRL] READ request for addr 0x0000001e
+[REGCTRL] READ request for addr 0x0000001f
+[REGCTRL] READ OK   Addr: 0x0000001c Data: 0xcafebabedeadbeef112233580000006c
+[REGCTRL] READ OK   Addr: 0x0000001d Data: 0xcafebabedeadbeef112233580000006d
+[REGCTRL] READ OK   Addr: 0x0000001e Data: 0xcafebabedeadbeef112233580000006e
+[REGCTRL] READ OK   Addr: 0x0000001f Data: 0xcafebabedeadbeef112233580000006f
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x0000001c
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000020
+[REGCTRL] WRITE 0x00000020 = 0xcafebabedeadbeef11223364000000a0
+[REGCTRL] WRITE 0x00000021 = 0xcafebabedeadbeef11223364000000a1
+[REGCTRL] WRITE 0x00000022 = 0xcafebabedeadbeef11223364000000a2
+[REGCTRL] WRITE 0x00000023 = 0xcafebabedeadbeef11223364000000a3
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000020
+[REGCTRL] READ request for addr 0x00000020
+[REGCTRL] READ request for addr 0x00000021
+[REGCTRL] READ request for addr 0x00000022
+[REGCTRL] READ request for addr 0x00000023
+[REGCTRL] READ OK   Addr: 0x00000020 Data: 0xcafebabedeadbeef11223364000000a0
+[REGCTRL] READ OK   Addr: 0x00000021 Data: 0xcafebabedeadbeef11223364000000a1
+[REGCTRL] READ OK   Addr: 0x00000022 Data: 0xcafebabedeadbeef11223364000000a2
+[REGCTRL] READ OK   Addr: 0x00000023 Data: 0xcafebabedeadbeef11223364000000a3
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000020
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000024
+[REGCTRL] WRITE 0x00000024 = 0xcafebabedeadbeef11223360000000b4
+[REGCTRL] WRITE 0x00000025 = 0xcafebabedeadbeef11223360000000b5
+[REGCTRL] WRITE 0x00000026 = 0xcafebabedeadbeef11223360000000b6
+[REGCTRL] WRITE 0x00000027 = 0xcafebabedeadbeef11223360000000b7
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000024
+[REGCTRL] READ request for addr 0x00000024
+[REGCTRL] READ request for addr 0x00000025
+[REGCTRL] READ request for addr 0x00000026
+[REGCTRL] READ request for addr 0x00000027
+[REGCTRL] READ OK   Addr: 0x00000024 Data: 0xcafebabedeadbeef11223360000000b4
+[REGCTRL] READ OK   Addr: 0x00000025 Data: 0xcafebabedeadbeef11223360000000b5
+[REGCTRL] READ OK   Addr: 0x00000026 Data: 0xcafebabedeadbeef11223360000000b6
+[REGCTRL] READ OK   Addr: 0x00000027 Data: 0xcafebabedeadbeef11223360000000b7
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000024
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000028
+[REGCTRL] WRITE 0x00000028 = 0xcafebabedeadbeef1122336c00000088
+[REGCTRL] WRITE 0x00000029 = 0xcafebabedeadbeef1122336c00000089
+[REGCTRL] WRITE 0x0000002a = 0xcafebabedeadbeef1122336c0000008a
+[REGCTRL] WRITE 0x0000002b = 0xcafebabedeadbeef1122336c0000008b
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000028
+[REGCTRL] READ request for addr 0x00000028
+[REGCTRL] READ request for addr 0x00000029
+[REGCTRL] READ request for addr 0x0000002a
+[REGCTRL] READ request for addr 0x0000002b
+[REGCTRL] READ OK   Addr: 0x00000028 Data: 0xcafebabedeadbeef1122336c00000088
+[REGCTRL] READ OK   Addr: 0x00000029 Data: 0xcafebabedeadbeef1122336c00000089
+[REGCTRL] READ OK   Addr: 0x0000002a Data: 0xcafebabedeadbeef1122336c0000008a
+[REGCTRL] READ OK   Addr: 0x0000002b Data: 0xcafebabedeadbeef1122336c0000008b
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000028
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x0000002c
+[REGCTRL] WRITE 0x0000002c = 0xcafebabedeadbeef112233680000009c
+[REGCTRL] WRITE 0x0000002d = 0xcafebabedeadbeef112233680000009d
+[REGCTRL] WRITE 0x0000002e = 0xcafebabedeadbeef112233680000009e
+[REGCTRL] WRITE 0x0000002f = 0xcafebabedeadbeef112233680000009f
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x0000002c
+[REGCTRL] READ request for addr 0x0000002c
+[REGCTRL] READ request for addr 0x0000002d
+[REGCTRL] READ request for addr 0x0000002e
+[REGCTRL] READ request for addr 0x0000002f
+[REGCTRL] READ OK   Addr: 0x0000002c Data: 0xcafebabedeadbeef112233680000009c
+[REGCTRL] READ OK   Addr: 0x0000002d Data: 0xcafebabedeadbeef112233680000009d
+[REGCTRL] READ OK   Addr: 0x0000002e Data: 0xcafebabedeadbeef112233680000009e
+[REGCTRL] READ OK   Addr: 0x0000002f Data: 0xcafebabedeadbeef112233680000009f
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x0000002c
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000030
+[REGCTRL] WRITE 0x00000030 = 0xcafebabedeadbeef11223374000000f0
+[REGCTRL] WRITE 0x00000031 = 0xcafebabedeadbeef11223374000000f1
+[REGCTRL] WRITE 0x00000032 = 0xcafebabedeadbeef11223374000000f2
+[REGCTRL] WRITE 0x00000033 = 0xcafebabedeadbeef11223374000000f3
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000030
+[REGCTRL] READ request for addr 0x00000030
+[REGCTRL] READ request for addr 0x00000031
+[REGCTRL] READ request for addr 0x00000032
+[REGCTRL] READ request for addr 0x00000033
+[REGCTRL] READ OK   Addr: 0x00000030 Data: 0xcafebabedeadbeef11223374000000f0
+[REGCTRL] READ OK   Addr: 0x00000031 Data: 0xcafebabedeadbeef11223374000000f1
+[REGCTRL] READ OK   Addr: 0x00000032 Data: 0xcafebabedeadbeef11223374000000f2
+[REGCTRL] READ OK   Addr: 0x00000033 Data: 0xcafebabedeadbeef11223374000000f3
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000030
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000034
+[REGCTRL] WRITE 0x00000034 = 0xcafebabedeadbeef11223370000000e4
+[REGCTRL] WRITE 0x00000035 = 0xcafebabedeadbeef11223370000000e5
+[REGCTRL] WRITE 0x00000036 = 0xcafebabedeadbeef11223370000000e6
+[REGCTRL] WRITE 0x00000037 = 0xcafebabedeadbeef11223370000000e7
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000034
+[REGCTRL] READ request for addr 0x00000034
+[REGCTRL] READ request for addr 0x00000035
+[REGCTRL] READ request for addr 0x00000036
+[REGCTRL] READ request for addr 0x00000037
+[REGCTRL] READ OK   Addr: 0x00000034 Data: 0xcafebabedeadbeef11223370000000e4
+[REGCTRL] READ OK   Addr: 0x00000035 Data: 0xcafebabedeadbeef11223370000000e5
+[REGCTRL] READ OK   Addr: 0x00000036 Data: 0xcafebabedeadbeef11223370000000e6
+[REGCTRL] READ OK   Addr: 0x00000037 Data: 0xcafebabedeadbeef11223370000000e7
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000034
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000038
+[REGCTRL] WRITE 0x00000038 = 0xcafebabedeadbeef1122337c000000d8
+[REGCTRL] WRITE 0x00000039 = 0xcafebabedeadbeef1122337c000000d9
+[REGCTRL] WRITE 0x0000003a = 0xcafebabedeadbeef1122337c000000da
+[REGCTRL] WRITE 0x0000003b = 0xcafebabedeadbeef1122337c000000db
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000038
+[REGCTRL] READ request for addr 0x00000038
+[REGCTRL] READ request for addr 0x00000039
+[REGCTRL] READ request for addr 0x0000003a
+[REGCTRL] READ request for addr 0x0000003b
+[REGCTRL] READ OK   Addr: 0x00000038 Data: 0xcafebabedeadbeef1122337c000000d8
+[REGCTRL] READ OK   Addr: 0x00000039 Data: 0xcafebabedeadbeef1122337c000000d9
+[REGCTRL] READ OK   Addr: 0x0000003a Data: 0xcafebabedeadbeef1122337c000000da
+[REGCTRL] READ OK   Addr: 0x0000003b Data: 0xcafebabedeadbeef1122337c000000db
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000038
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x0000003c
+[REGCTRL] WRITE 0x0000003c = 0xcafebabedeadbeef11223378000000cc
+[REGCTRL] WRITE 0x0000003d = 0xcafebabedeadbeef11223378000000cd
+[REGCTRL] WRITE 0x0000003e = 0xcafebabedeadbeef11223378000000ce
+[REGCTRL] WRITE 0x0000003f = 0xcafebabedeadbeef11223378000000cf
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x0000003c
+[REGCTRL] READ request for addr 0x0000003c
+[REGCTRL] READ request for addr 0x0000003d
+[REGCTRL] READ request for addr 0x0000003e
+[REGCTRL] READ request for addr 0x0000003f
+[REGCTRL] READ OK   Addr: 0x0000003c Data: 0xcafebabedeadbeef11223378000000cc
+[REGCTRL] READ OK   Addr: 0x0000003d Data: 0xcafebabedeadbeef11223378000000cd
+[REGCTRL] READ OK   Addr: 0x0000003e Data: 0xcafebabedeadbeef11223378000000ce
+[REGCTRL] READ OK   Addr: 0x0000003f Data: 0xcafebabedeadbeef11223378000000cf
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x0000003c
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000040
+[REGCTRL] WRITE 0x00000040 = 0xcafebabedeadbeef1122330400000140
+[REGCTRL] WRITE 0x00000041 = 0xcafebabedeadbeef1122330400000141
+[REGCTRL] WRITE 0x00000042 = 0xcafebabedeadbeef1122330400000142
+[REGCTRL] WRITE 0x00000043 = 0xcafebabedeadbeef1122330400000143
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000040
+[REGCTRL] READ request for addr 0x00000040
+[REGCTRL] READ request for addr 0x00000041
+[REGCTRL] READ request for addr 0x00000042
+[REGCTRL] READ request for addr 0x00000043
+[REGCTRL] READ OK   Addr: 0x00000040 Data: 0xcafebabedeadbeef1122330400000140
+[REGCTRL] READ OK   Addr: 0x00000041 Data: 0xcafebabedeadbeef1122330400000141
+[REGCTRL] READ OK   Addr: 0x00000042 Data: 0xcafebabedeadbeef1122330400000142
+[REGCTRL] READ OK   Addr: 0x00000043 Data: 0xcafebabedeadbeef1122330400000143
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000040
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000044
+[REGCTRL] WRITE 0x00000044 = 0xcafebabedeadbeef1122330000000154
+[REGCTRL] WRITE 0x00000045 = 0xcafebabedeadbeef1122330000000155
+[REGCTRL] WRITE 0x00000046 = 0xcafebabedeadbeef1122330000000156
+[REGCTRL] WRITE 0x00000047 = 0xcafebabedeadbeef1122330000000157
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000044
+[REGCTRL] READ request for addr 0x00000044
+[REGCTRL] READ request for addr 0x00000045
+[REGCTRL] READ request for addr 0x00000046
+[REGCTRL] READ request for addr 0x00000047
+[REGCTRL] READ OK   Addr: 0x00000044 Data: 0xcafebabedeadbeef1122330000000154
+[REGCTRL] READ OK   Addr: 0x00000045 Data: 0xcafebabedeadbeef1122330000000155
+[REGCTRL] READ OK   Addr: 0x00000046 Data: 0xcafebabedeadbeef1122330000000156
+[REGCTRL] READ OK   Addr: 0x00000047 Data: 0xcafebabedeadbeef1122330000000157
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000044
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000048
+[REGCTRL] WRITE 0x00000048 = 0xcafebabedeadbeef1122330c00000168
+[REGCTRL] WRITE 0x00000049 = 0xcafebabedeadbeef1122330c00000169
+[REGCTRL] WRITE 0x0000004a = 0xcafebabedeadbeef1122330c0000016a
+[REGCTRL] WRITE 0x0000004b = 0xcafebabedeadbeef1122330c0000016b
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000048
+[REGCTRL] READ request for addr 0x00000048
+[REGCTRL] READ request for addr 0x00000049
+[REGCTRL] READ request for addr 0x0000004a
+[REGCTRL] READ request for addr 0x0000004b
+[REGCTRL] READ OK   Addr: 0x00000048 Data: 0xcafebabedeadbeef1122330c00000168
+[REGCTRL] READ OK   Addr: 0x00000049 Data: 0xcafebabedeadbeef1122330c00000169
+[REGCTRL] READ OK   Addr: 0x0000004a Data: 0xcafebabedeadbeef1122330c0000016a
+[REGCTRL] READ OK   Addr: 0x0000004b Data: 0xcafebabedeadbeef1122330c0000016b
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000048
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x0000004c
+[REGCTRL] WRITE 0x0000004c = 0xcafebabedeadbeef112233080000017c
+[REGCTRL] WRITE 0x0000004d = 0xcafebabedeadbeef112233080000017d
+[REGCTRL] WRITE 0x0000004e = 0xcafebabedeadbeef112233080000017e
+[REGCTRL] WRITE 0x0000004f = 0xcafebabedeadbeef112233080000017f
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x0000004c
+[REGCTRL] READ request for addr 0x0000004c
+[REGCTRL] READ request for addr 0x0000004d
+[REGCTRL] READ request for addr 0x0000004e
+[REGCTRL] READ request for addr 0x0000004f
+[REGCTRL] READ OK   Addr: 0x0000004c Data: 0xcafebabedeadbeef112233080000017c
+[REGCTRL] READ OK   Addr: 0x0000004d Data: 0xcafebabedeadbeef112233080000017d
+[REGCTRL] READ OK   Addr: 0x0000004e Data: 0xcafebabedeadbeef112233080000017e
+[REGCTRL] READ OK   Addr: 0x0000004f Data: 0xcafebabedeadbeef112233080000017f
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x0000004c
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000050
+[REGCTRL] WRITE 0x00000050 = 0xcafebabedeadbeef1122331400000110
+[REGCTRL] WRITE 0x00000051 = 0xcafebabedeadbeef1122331400000111
+[REGCTRL] WRITE 0x00000052 = 0xcafebabedeadbeef1122331400000112
+[REGCTRL] WRITE 0x00000053 = 0xcafebabedeadbeef1122331400000113
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000050
+[REGCTRL] READ request for addr 0x00000050
+[REGCTRL] READ request for addr 0x00000051
+[REGCTRL] READ request for addr 0x00000052
+[REGCTRL] READ request for addr 0x00000053
+[REGCTRL] READ OK   Addr: 0x00000050 Data: 0xcafebabedeadbeef1122331400000110
+[REGCTRL] READ OK   Addr: 0x00000051 Data: 0xcafebabedeadbeef1122331400000111
+[REGCTRL] READ OK   Addr: 0x00000052 Data: 0xcafebabedeadbeef1122331400000112
+[REGCTRL] READ OK   Addr: 0x00000053 Data: 0xcafebabedeadbeef1122331400000113
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000050
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000054
+[REGCTRL] WRITE 0x00000054 = 0xcafebabedeadbeef1122331000000104
+[REGCTRL] WRITE 0x00000055 = 0xcafebabedeadbeef1122331000000105
+[REGCTRL] WRITE 0x00000056 = 0xcafebabedeadbeef1122331000000106
+[REGCTRL] WRITE 0x00000057 = 0xcafebabedeadbeef1122331000000107
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000054
+[REGCTRL] READ request for addr 0x00000054
+[REGCTRL] READ request for addr 0x00000055
+[REGCTRL] READ request for addr 0x00000056
+[REGCTRL] READ request for addr 0x00000057
+[REGCTRL] READ OK   Addr: 0x00000054 Data: 0xcafebabedeadbeef1122331000000104
+[REGCTRL] READ OK   Addr: 0x00000055 Data: 0xcafebabedeadbeef1122331000000105
+[REGCTRL] READ OK   Addr: 0x00000056 Data: 0xcafebabedeadbeef1122331000000106
+[REGCTRL] READ OK   Addr: 0x00000057 Data: 0xcafebabedeadbeef1122331000000107
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000054
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000058
+[REGCTRL] WRITE 0x00000058 = 0xcafebabedeadbeef1122331c00000138
+[REGCTRL] WRITE 0x00000059 = 0xcafebabedeadbeef1122331c00000139
+[REGCTRL] WRITE 0x0000005a = 0xcafebabedeadbeef1122331c0000013a
+[REGCTRL] WRITE 0x0000005b = 0xcafebabedeadbeef1122331c0000013b
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000058
+[REGCTRL] READ request for addr 0x00000058
+[REGCTRL] READ request for addr 0x00000059
+[REGCTRL] READ request for addr 0x0000005a
+[REGCTRL] READ request for addr 0x0000005b
+[REGCTRL] READ OK   Addr: 0x00000058 Data: 0xcafebabedeadbeef1122331c00000138
+[REGCTRL] READ OK   Addr: 0x00000059 Data: 0xcafebabedeadbeef1122331c00000139
+[REGCTRL] READ OK   Addr: 0x0000005a Data: 0xcafebabedeadbeef1122331c0000013a
+[REGCTRL] READ OK   Addr: 0x0000005b Data: 0xcafebabedeadbeef1122331c0000013b
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000058
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x0000005c
+[REGCTRL] WRITE 0x0000005c = 0xcafebabedeadbeef112233180000012c
+[REGCTRL] WRITE 0x0000005d = 0xcafebabedeadbeef112233180000012d
+[REGCTRL] WRITE 0x0000005e = 0xcafebabedeadbeef112233180000012e
+[REGCTRL] WRITE 0x0000005f = 0xcafebabedeadbeef112233180000012f
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x0000005c
+[REGCTRL] READ request for addr 0x0000005c
+[REGCTRL] READ request for addr 0x0000005d
+[REGCTRL] READ request for addr 0x0000005e
+[REGCTRL] READ request for addr 0x0000005f
+[REGCTRL] READ OK   Addr: 0x0000005c Data: 0xcafebabedeadbeef112233180000012c
+[REGCTRL] READ OK   Addr: 0x0000005d Data: 0xcafebabedeadbeef112233180000012d
+[REGCTRL] READ OK   Addr: 0x0000005e Data: 0xcafebabedeadbeef112233180000012e
+[REGCTRL] READ OK   Addr: 0x0000005f Data: 0xcafebabedeadbeef112233180000012f
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x0000005c
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000060
+[REGCTRL] WRITE 0x00000060 = 0xcafebabedeadbeef11223324000001e0
+[REGCTRL] WRITE 0x00000061 = 0xcafebabedeadbeef11223324000001e1
+[REGCTRL] WRITE 0x00000062 = 0xcafebabedeadbeef11223324000001e2
+[REGCTRL] WRITE 0x00000063 = 0xcafebabedeadbeef11223324000001e3
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000060
+[REGCTRL] READ request for addr 0x00000060
+[REGCTRL] READ request for addr 0x00000061
+[REGCTRL] READ request for addr 0x00000062
+[REGCTRL] READ request for addr 0x00000063
+[REGCTRL] READ OK   Addr: 0x00000060 Data: 0xcafebabedeadbeef11223324000001e0
+[REGCTRL] READ OK   Addr: 0x00000061 Data: 0xcafebabedeadbeef11223324000001e1
+[REGCTRL] READ OK   Addr: 0x00000062 Data: 0xcafebabedeadbeef11223324000001e2
+[REGCTRL] READ OK   Addr: 0x00000063 Data: 0xcafebabedeadbeef11223324000001e3
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000060
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000064
+[REGCTRL] WRITE 0x00000064 = 0xcafebabedeadbeef11223320000001f4
+[REGCTRL] WRITE 0x00000065 = 0xcafebabedeadbeef11223320000001f5
+[REGCTRL] WRITE 0x00000066 = 0xcafebabedeadbeef11223320000001f6
+[REGCTRL] WRITE 0x00000067 = 0xcafebabedeadbeef11223320000001f7
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000064
+[REGCTRL] READ request for addr 0x00000064
+[REGCTRL] READ request for addr 0x00000065
+[REGCTRL] READ request for addr 0x00000066
+[REGCTRL] READ request for addr 0x00000067
+[REGCTRL] READ OK   Addr: 0x00000064 Data: 0xcafebabedeadbeef11223320000001f4
+[REGCTRL] READ OK   Addr: 0x00000065 Data: 0xcafebabedeadbeef11223320000001f5
+[REGCTRL] READ OK   Addr: 0x00000066 Data: 0xcafebabedeadbeef11223320000001f6
+[REGCTRL] READ OK   Addr: 0x00000067 Data: 0xcafebabedeadbeef11223320000001f7
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000064
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000068
+[REGCTRL] WRITE 0x00000068 = 0xcafebabedeadbeef1122332c000001c8
+[REGCTRL] WRITE 0x00000069 = 0xcafebabedeadbeef1122332c000001c9
+[REGCTRL] WRITE 0x0000006a = 0xcafebabedeadbeef1122332c000001ca
+[REGCTRL] WRITE 0x0000006b = 0xcafebabedeadbeef1122332c000001cb
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000068
+[REGCTRL] READ request for addr 0x00000068
+[REGCTRL] READ request for addr 0x00000069
+[REGCTRL] READ request for addr 0x0000006a
+[REGCTRL] READ request for addr 0x0000006b
+[REGCTRL] READ OK   Addr: 0x00000068 Data: 0xcafebabedeadbeef1122332c000001c8
+[REGCTRL] READ OK   Addr: 0x00000069 Data: 0xcafebabedeadbeef1122332c000001c9
+[REGCTRL] READ OK   Addr: 0x0000006a Data: 0xcafebabedeadbeef1122332c000001ca
+[REGCTRL] READ OK   Addr: 0x0000006b Data: 0xcafebabedeadbeef1122332c000001cb
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000068
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x0000006c
+[REGCTRL] WRITE 0x0000006c = 0xcafebabedeadbeef11223328000001dc
+[REGCTRL] WRITE 0x0000006d = 0xcafebabedeadbeef11223328000001dd
+[REGCTRL] WRITE 0x0000006e = 0xcafebabedeadbeef11223328000001de
+[REGCTRL] WRITE 0x0000006f = 0xcafebabedeadbeef11223328000001df
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x0000006c
+[REGCTRL] READ request for addr 0x0000006c
+[REGCTRL] READ request for addr 0x0000006d
+[REGCTRL] READ request for addr 0x0000006e
+[REGCTRL] READ request for addr 0x0000006f
+[REGCTRL] READ OK   Addr: 0x0000006c Data: 0xcafebabedeadbeef11223328000001dc
+[REGCTRL] READ OK   Addr: 0x0000006d Data: 0xcafebabedeadbeef11223328000001dd
+[REGCTRL] READ OK   Addr: 0x0000006e Data: 0xcafebabedeadbeef11223328000001de
+[REGCTRL] READ OK   Addr: 0x0000006f Data: 0xcafebabedeadbeef11223328000001df
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x0000006c
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000070
+[REGCTRL] WRITE 0x00000070 = 0xcafebabedeadbeef11223334000001b0
+[REGCTRL] WRITE 0x00000071 = 0xcafebabedeadbeef11223334000001b1
+[REGCTRL] WRITE 0x00000072 = 0xcafebabedeadbeef11223334000001b2
+[REGCTRL] WRITE 0x00000073 = 0xcafebabedeadbeef11223334000001b3
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000070
+[REGCTRL] READ request for addr 0x00000070
+[REGCTRL] READ request for addr 0x00000071
+[REGCTRL] READ request for addr 0x00000072
+[REGCTRL] READ request for addr 0x00000073
+[REGCTRL] READ OK   Addr: 0x00000070 Data: 0xcafebabedeadbeef11223334000001b0
+[REGCTRL] READ OK   Addr: 0x00000071 Data: 0xcafebabedeadbeef11223334000001b1
+[REGCTRL] READ OK   Addr: 0x00000072 Data: 0xcafebabedeadbeef11223334000001b2
+[REGCTRL] READ OK   Addr: 0x00000073 Data: 0xcafebabedeadbeef11223334000001b3
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000070
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000074
+[REGCTRL] WRITE 0x00000074 = 0xcafebabedeadbeef11223330000001a4
+[REGCTRL] WRITE 0x00000075 = 0xcafebabedeadbeef11223330000001a5
+[REGCTRL] WRITE 0x00000076 = 0xcafebabedeadbeef11223330000001a6
+[REGCTRL] WRITE 0x00000077 = 0xcafebabedeadbeef11223330000001a7
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000074
+[REGCTRL] READ request for addr 0x00000074
+[REGCTRL] READ request for addr 0x00000075
+[REGCTRL] READ request for addr 0x00000076
+[REGCTRL] READ request for addr 0x00000077
+[REGCTRL] READ OK   Addr: 0x00000074 Data: 0xcafebabedeadbeef11223330000001a4
+[REGCTRL] READ OK   Addr: 0x00000075 Data: 0xcafebabedeadbeef11223330000001a5
+[REGCTRL] READ OK   Addr: 0x00000076 Data: 0xcafebabedeadbeef11223330000001a6
+[REGCTRL] READ OK   Addr: 0x00000077 Data: 0xcafebabedeadbeef11223330000001a7
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000074
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000078
+[REGCTRL] WRITE 0x00000078 = 0xcafebabedeadbeef1122333c00000198
+[REGCTRL] WRITE 0x00000079 = 0xcafebabedeadbeef1122333c00000199
+[REGCTRL] WRITE 0x0000007a = 0xcafebabedeadbeef1122333c0000019a
+[REGCTRL] WRITE 0x0000007b = 0xcafebabedeadbeef1122333c0000019b
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000078
+[REGCTRL] READ request for addr 0x00000078
+[REGCTRL] READ request for addr 0x00000079
+[REGCTRL] READ request for addr 0x0000007a
+[REGCTRL] READ request for addr 0x0000007b
+[REGCTRL] READ OK   Addr: 0x00000078 Data: 0xcafebabedeadbeef1122333c00000198
+[REGCTRL] READ OK   Addr: 0x00000079 Data: 0xcafebabedeadbeef1122333c00000199
+[REGCTRL] READ OK   Addr: 0x0000007a Data: 0xcafebabedeadbeef1122333c0000019a
+[REGCTRL] READ OK   Addr: 0x0000007b Data: 0xcafebabedeadbeef1122333c0000019b
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000078
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x0000007c
+[REGCTRL] WRITE 0x0000007c = 0xcafebabedeadbeef112233380000018c
+[REGCTRL] WRITE 0x0000007d = 0xcafebabedeadbeef112233380000018d
+[REGCTRL] WRITE 0x0000007e = 0xcafebabedeadbeef112233380000018e
+[REGCTRL] WRITE 0x0000007f = 0xcafebabedeadbeef112233380000018f
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x0000007c
+[REGCTRL] READ request for addr 0x0000007c
+[REGCTRL] READ request for addr 0x0000007d
+[REGCTRL] READ request for addr 0x0000007e
+[REGCTRL] READ request for addr 0x0000007f
+[REGCTRL] READ OK   Addr: 0x0000007c Data: 0xcafebabedeadbeef112233380000018c
+[REGCTRL] READ OK   Addr: 0x0000007d Data: 0xcafebabedeadbeef112233380000018d
+[REGCTRL] READ OK   Addr: 0x0000007e Data: 0xcafebabedeadbeef112233380000018e
+[REGCTRL] READ OK   Addr: 0x0000007f Data: 0xcafebabedeadbeef112233380000018f
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x0000007c
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000080
+[REGCTRL] WRITE 0x00000080 = 0xcafebabedeadbeef112233c400000280
+[REGCTRL] WRITE 0x00000081 = 0xcafebabedeadbeef112233c400000281
+[REGCTRL] WRITE 0x00000082 = 0xcafebabedeadbeef112233c400000282
+[REGCTRL] WRITE 0x00000083 = 0xcafebabedeadbeef112233c400000283
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000080
+[REGCTRL] READ request for addr 0x00000080
+[REGCTRL] READ request for addr 0x00000081
+[REGCTRL] READ request for addr 0x00000082
+[REGCTRL] READ request for addr 0x00000083
+[REGCTRL] READ OK   Addr: 0x00000080 Data: 0xcafebabedeadbeef112233c400000280
+[REGCTRL] READ OK   Addr: 0x00000081 Data: 0xcafebabedeadbeef112233c400000281
+[REGCTRL] READ OK   Addr: 0x00000082 Data: 0xcafebabedeadbeef112233c400000282
+[REGCTRL] READ OK   Addr: 0x00000083 Data: 0xcafebabedeadbeef112233c400000283
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000080
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000084
+[REGCTRL] WRITE 0x00000084 = 0xcafebabedeadbeef112233c000000294
+[REGCTRL] WRITE 0x00000085 = 0xcafebabedeadbeef112233c000000295
+[REGCTRL] WRITE 0x00000086 = 0xcafebabedeadbeef112233c000000296
+[REGCTRL] WRITE 0x00000087 = 0xcafebabedeadbeef112233c000000297
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000084
+[REGCTRL] READ request for addr 0x00000084
+[REGCTRL] READ request for addr 0x00000085
+[REGCTRL] READ request for addr 0x00000086
+[REGCTRL] READ request for addr 0x00000087
+[REGCTRL] READ OK   Addr: 0x00000084 Data: 0xcafebabedeadbeef112233c000000294
+[REGCTRL] READ OK   Addr: 0x00000085 Data: 0xcafebabedeadbeef112233c000000295
+[REGCTRL] READ OK   Addr: 0x00000086 Data: 0xcafebabedeadbeef112233c000000296
+[REGCTRL] READ OK   Addr: 0x00000087 Data: 0xcafebabedeadbeef112233c000000297
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000084
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000088
+[REGCTRL] WRITE 0x00000088 = 0xcafebabedeadbeef112233cc000002a8
+[REGCTRL] WRITE 0x00000089 = 0xcafebabedeadbeef112233cc000002a9
+[REGCTRL] WRITE 0x0000008a = 0xcafebabedeadbeef112233cc000002aa
+[REGCTRL] WRITE 0x0000008b = 0xcafebabedeadbeef112233cc000002ab
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000088
+[REGCTRL] READ request for addr 0x00000088
+[REGCTRL] READ request for addr 0x00000089
+[REGCTRL] READ request for addr 0x0000008a
+[REGCTRL] READ request for addr 0x0000008b
+[REGCTRL] READ OK   Addr: 0x00000088 Data: 0xcafebabedeadbeef112233cc000002a8
+[REGCTRL] READ OK   Addr: 0x00000089 Data: 0xcafebabedeadbeef112233cc000002a9
+[REGCTRL] READ OK   Addr: 0x0000008a Data: 0xcafebabedeadbeef112233cc000002aa
+[REGCTRL] READ OK   Addr: 0x0000008b Data: 0xcafebabedeadbeef112233cc000002ab
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000088
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x0000008c
+[REGCTRL] WRITE 0x0000008c = 0xcafebabedeadbeef112233c8000002bc
+[REGCTRL] WRITE 0x0000008d = 0xcafebabedeadbeef112233c8000002bd
+[REGCTRL] WRITE 0x0000008e = 0xcafebabedeadbeef112233c8000002be
+[REGCTRL] WRITE 0x0000008f = 0xcafebabedeadbeef112233c8000002bf
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x0000008c
+[REGCTRL] READ request for addr 0x0000008c
+[REGCTRL] READ request for addr 0x0000008d
+[REGCTRL] READ request for addr 0x0000008e
+[REGCTRL] READ request for addr 0x0000008f
+[REGCTRL] READ OK   Addr: 0x0000008c Data: 0xcafebabedeadbeef112233c8000002bc
+[REGCTRL] READ OK   Addr: 0x0000008d Data: 0xcafebabedeadbeef112233c8000002bd
+[REGCTRL] READ OK   Addr: 0x0000008e Data: 0xcafebabedeadbeef112233c8000002be
+[REGCTRL] READ OK   Addr: 0x0000008f Data: 0xcafebabedeadbeef112233c8000002bf
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x0000008c
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000090
+[REGCTRL] WRITE 0x00000090 = 0xcafebabedeadbeef112233d4000002d0
+[REGCTRL] WRITE 0x00000091 = 0xcafebabedeadbeef112233d4000002d1
+[REGCTRL] WRITE 0x00000092 = 0xcafebabedeadbeef112233d4000002d2
+[REGCTRL] WRITE 0x00000093 = 0xcafebabedeadbeef112233d4000002d3
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000090
+[REGCTRL] READ request for addr 0x00000090
+[REGCTRL] READ request for addr 0x00000091
+[REGCTRL] READ request for addr 0x00000092
+[REGCTRL] READ request for addr 0x00000093
+[REGCTRL] READ OK   Addr: 0x00000090 Data: 0xcafebabedeadbeef112233d4000002d0
+[REGCTRL] READ OK   Addr: 0x00000091 Data: 0xcafebabedeadbeef112233d4000002d1
+[REGCTRL] READ OK   Addr: 0x00000092 Data: 0xcafebabedeadbeef112233d4000002d2
+[REGCTRL] READ OK   Addr: 0x00000093 Data: 0xcafebabedeadbeef112233d4000002d3
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000090
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000094
+[REGCTRL] WRITE 0x00000094 = 0xcafebabedeadbeef112233d0000002c4
+[REGCTRL] WRITE 0x00000095 = 0xcafebabedeadbeef112233d0000002c5
+[REGCTRL] WRITE 0x00000096 = 0xcafebabedeadbeef112233d0000002c6
+[REGCTRL] WRITE 0x00000097 = 0xcafebabedeadbeef112233d0000002c7
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000094
+[REGCTRL] READ request for addr 0x00000094
+[REGCTRL] READ request for addr 0x00000095
+[REGCTRL] READ request for addr 0x00000096
+[REGCTRL] READ request for addr 0x00000097
+[REGCTRL] READ OK   Addr: 0x00000094 Data: 0xcafebabedeadbeef112233d0000002c4
+[REGCTRL] READ OK   Addr: 0x00000095 Data: 0xcafebabedeadbeef112233d0000002c5
+[REGCTRL] READ OK   Addr: 0x00000096 Data: 0xcafebabedeadbeef112233d0000002c6
+[REGCTRL] READ OK   Addr: 0x00000097 Data: 0xcafebabedeadbeef112233d0000002c7
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000094
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x00000098
+[REGCTRL] WRITE 0x00000098 = 0xcafebabedeadbeef112233dc000002f8
+[REGCTRL] WRITE 0x00000099 = 0xcafebabedeadbeef112233dc000002f9
+[REGCTRL] WRITE 0x0000009a = 0xcafebabedeadbeef112233dc000002fa
+[REGCTRL] WRITE 0x0000009b = 0xcafebabedeadbeef112233dc000002fb
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x00000098
+[REGCTRL] READ request for addr 0x00000098
+[REGCTRL] READ request for addr 0x00000099
+[REGCTRL] READ request for addr 0x0000009a
+[REGCTRL] READ request for addr 0x0000009b
+[REGCTRL] READ OK   Addr: 0x00000098 Data: 0xcafebabedeadbeef112233dc000002f8
+[REGCTRL] READ OK   Addr: 0x00000099 Data: 0xcafebabedeadbeef112233dc000002f9
+[REGCTRL] READ OK   Addr: 0x0000009a Data: 0xcafebabedeadbeef112233dc000002fa
+[REGCTRL] READ OK   Addr: 0x0000009b Data: 0xcafebabedeadbeef112233dc000002fb
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x00000098
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x0000009c
+[REGCTRL] WRITE 0x0000009c = 0xcafebabedeadbeef112233d8000002ec
+[REGCTRL] WRITE 0x0000009d = 0xcafebabedeadbeef112233d8000002ed
+[REGCTRL] WRITE 0x0000009e = 0xcafebabedeadbeef112233d8000002ee
+[REGCTRL] WRITE 0x0000009f = 0xcafebabedeadbeef112233d8000002ef
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x0000009c
+[REGCTRL] READ request for addr 0x0000009c
+[REGCTRL] READ request for addr 0x0000009d
+[REGCTRL] READ request for addr 0x0000009e
+[REGCTRL] READ request for addr 0x0000009f
+[REGCTRL] READ OK   Addr: 0x0000009c Data: 0xcafebabedeadbeef112233d8000002ec
+[REGCTRL] READ OK   Addr: 0x0000009d Data: 0xcafebabedeadbeef112233d8000002ed
+[REGCTRL] READ OK   Addr: 0x0000009e Data: 0xcafebabedeadbeef112233d8000002ee
+[REGCTRL] READ OK   Addr: 0x0000009f Data: 0xcafebabedeadbeef112233d8000002ef
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x0000009c
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x000000a0
+[REGCTRL] WRITE 0x000000a0 = 0xcafebabedeadbeef112233e400000220
+[REGCTRL] WRITE 0x000000a1 = 0xcafebabedeadbeef112233e400000221
+[REGCTRL] WRITE 0x000000a2 = 0xcafebabedeadbeef112233e400000222
+[REGCTRL] WRITE 0x000000a3 = 0xcafebabedeadbeef112233e400000223
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x000000a0
+[REGCTRL] READ request for addr 0x000000a0
+[REGCTRL] READ request for addr 0x000000a1
+[REGCTRL] READ request for addr 0x000000a2
+[REGCTRL] READ request for addr 0x000000a3
+[REGCTRL] READ OK   Addr: 0x000000a0 Data: 0xcafebabedeadbeef112233e400000220
+[REGCTRL] READ OK   Addr: 0x000000a1 Data: 0xcafebabedeadbeef112233e400000221
+[REGCTRL] READ OK   Addr: 0x000000a2 Data: 0xcafebabedeadbeef112233e400000222
+[REGCTRL] READ OK   Addr: 0x000000a3 Data: 0xcafebabedeadbeef112233e400000223
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x000000a0
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x000000a4
+[REGCTRL] WRITE 0x000000a4 = 0xcafebabedeadbeef112233e000000234
+[REGCTRL] WRITE 0x000000a5 = 0xcafebabedeadbeef112233e000000235
+[REGCTRL] WRITE 0x000000a6 = 0xcafebabedeadbeef112233e000000236
+[REGCTRL] WRITE 0x000000a7 = 0xcafebabedeadbeef112233e000000237
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x000000a4
+[REGCTRL] READ request for addr 0x000000a4
+[REGCTRL] READ request for addr 0x000000a5
+[REGCTRL] READ request for addr 0x000000a6
+[REGCTRL] READ request for addr 0x000000a7
+[REGCTRL] READ OK   Addr: 0x000000a4 Data: 0xcafebabedeadbeef112233e000000234
+[REGCTRL] READ OK   Addr: 0x000000a5 Data: 0xcafebabedeadbeef112233e000000235
+[REGCTRL] READ OK   Addr: 0x000000a6 Data: 0xcafebabedeadbeef112233e000000236
+[REGCTRL] READ OK   Addr: 0x000000a7 Data: 0xcafebabedeadbeef112233e000000237
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x000000a4
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x000000a8
+[REGCTRL] WRITE 0x000000a8 = 0xcafebabedeadbeef112233ec00000208
+[REGCTRL] WRITE 0x000000a9 = 0xcafebabedeadbeef112233ec00000209
+[REGCTRL] WRITE 0x000000aa = 0xcafebabedeadbeef112233ec0000020a
+[REGCTRL] WRITE 0x000000ab = 0xcafebabedeadbeef112233ec0000020b
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x000000a8
+[REGCTRL] READ request for addr 0x000000a8
+[REGCTRL] READ request for addr 0x000000a9
+[REGCTRL] READ request for addr 0x000000aa
+[REGCTRL] READ request for addr 0x000000ab
+[REGCTRL] READ OK   Addr: 0x000000a8 Data: 0xcafebabedeadbeef112233ec00000208
+[REGCTRL] READ OK   Addr: 0x000000a9 Data: 0xcafebabedeadbeef112233ec00000209
+[REGCTRL] READ OK   Addr: 0x000000aa Data: 0xcafebabedeadbeef112233ec0000020a
+[REGCTRL] READ OK   Addr: 0x000000ab Data: 0xcafebabedeadbeef112233ec0000020b
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x000000a8
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x000000ac
+[REGCTRL] WRITE 0x000000ac = 0xcafebabedeadbeef112233e80000021c
+[REGCTRL] WRITE 0x000000ad = 0xcafebabedeadbeef112233e80000021d
+[REGCTRL] WRITE 0x000000ae = 0xcafebabedeadbeef112233e80000021e
+[REGCTRL] WRITE 0x000000af = 0xcafebabedeadbeef112233e80000021f
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x000000ac
+[REGCTRL] READ request for addr 0x000000ac
+[REGCTRL] READ request for addr 0x000000ad
+[REGCTRL] READ request for addr 0x000000ae
+[REGCTRL] READ request for addr 0x000000af
+[REGCTRL] READ OK   Addr: 0x000000ac Data: 0xcafebabedeadbeef112233e80000021c
+[REGCTRL] READ OK   Addr: 0x000000ad Data: 0xcafebabedeadbeef112233e80000021d
+[REGCTRL] READ OK   Addr: 0x000000ae Data: 0xcafebabedeadbeef112233e80000021e
+[REGCTRL] READ OK   Addr: 0x000000af Data: 0xcafebabedeadbeef112233e80000021f
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x000000ac
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x000000b0
+[REGCTRL] WRITE 0x000000b0 = 0xcafebabedeadbeef112233f400000270
+[REGCTRL] WRITE 0x000000b1 = 0xcafebabedeadbeef112233f400000271
+[REGCTRL] WRITE 0x000000b2 = 0xcafebabedeadbeef112233f400000272
+[REGCTRL] WRITE 0x000000b3 = 0xcafebabedeadbeef112233f400000273
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x000000b0
+[REGCTRL] READ request for addr 0x000000b0
+[REGCTRL] READ request for addr 0x000000b1
+[REGCTRL] READ request for addr 0x000000b2
+[REGCTRL] READ request for addr 0x000000b3
+[REGCTRL] READ OK   Addr: 0x000000b0 Data: 0xcafebabedeadbeef112233f400000270
+[REGCTRL] READ OK   Addr: 0x000000b1 Data: 0xcafebabedeadbeef112233f400000271
+[REGCTRL] READ OK   Addr: 0x000000b2 Data: 0xcafebabedeadbeef112233f400000272
+[REGCTRL] READ OK   Addr: 0x000000b3 Data: 0xcafebabedeadbeef112233f400000273
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x000000b0
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x000000b4
+[REGCTRL] WRITE 0x000000b4 = 0xcafebabedeadbeef112233f000000264
+[REGCTRL] WRITE 0x000000b5 = 0xcafebabedeadbeef112233f000000265
+[REGCTRL] WRITE 0x000000b6 = 0xcafebabedeadbeef112233f000000266
+[REGCTRL] WRITE 0x000000b7 = 0xcafebabedeadbeef112233f000000267
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x000000b4
+[REGCTRL] READ request for addr 0x000000b4
+[REGCTRL] READ request for addr 0x000000b5
+[REGCTRL] READ request for addr 0x000000b6
+[REGCTRL] READ request for addr 0x000000b7
+[REGCTRL] READ OK   Addr: 0x000000b4 Data: 0xcafebabedeadbeef112233f000000264
+[REGCTRL] READ OK   Addr: 0x000000b5 Data: 0xcafebabedeadbeef112233f000000265
+[REGCTRL] READ OK   Addr: 0x000000b6 Data: 0xcafebabedeadbeef112233f000000266
+[REGCTRL] READ OK   Addr: 0x000000b7 Data: 0xcafebabedeadbeef112233f000000267
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x000000b4
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x000000b8
+[REGCTRL] WRITE 0x000000b8 = 0xcafebabedeadbeef112233fc00000258
+[REGCTRL] WRITE 0x000000b9 = 0xcafebabedeadbeef112233fc00000259
+[REGCTRL] WRITE 0x000000ba = 0xcafebabedeadbeef112233fc0000025a
+[REGCTRL] WRITE 0x000000bb = 0xcafebabedeadbeef112233fc0000025b
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x000000b8
+[REGCTRL] READ request for addr 0x000000b8
+[REGCTRL] READ request for addr 0x000000b9
+[REGCTRL] READ request for addr 0x000000ba
+[REGCTRL] READ request for addr 0x000000bb
+[REGCTRL] READ OK   Addr: 0x000000b8 Data: 0xcafebabedeadbeef112233fc00000258
+[REGCTRL] READ OK   Addr: 0x000000b9 Data: 0xcafebabedeadbeef112233fc00000259
+[REGCTRL] READ OK   Addr: 0x000000ba Data: 0xcafebabedeadbeef112233fc0000025a
+[REGCTRL] READ OK   Addr: 0x000000bb Data: 0xcafebabedeadbeef112233fc0000025b
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x000000b8
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x000000bc
+[REGCTRL] WRITE 0x000000bc = 0xcafebabedeadbeef112233f80000024c
+[REGCTRL] WRITE 0x000000bd = 0xcafebabedeadbeef112233f80000024d
+[REGCTRL] WRITE 0x000000be = 0xcafebabedeadbeef112233f80000024e
+[REGCTRL] WRITE 0x000000bf = 0xcafebabedeadbeef112233f80000024f
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x000000bc
+[REGCTRL] READ request for addr 0x000000bc
+[REGCTRL] READ request for addr 0x000000bd
+[REGCTRL] READ request for addr 0x000000be
+[REGCTRL] READ request for addr 0x000000bf
+[REGCTRL] READ OK   Addr: 0x000000bc Data: 0xcafebabedeadbeef112233f80000024c
+[REGCTRL] READ OK   Addr: 0x000000bd Data: 0xcafebabedeadbeef112233f80000024d
+[REGCTRL] READ OK   Addr: 0x000000be Data: 0xcafebabedeadbeef112233f80000024e
+[REGCTRL] READ OK   Addr: 0x000000bf Data: 0xcafebabedeadbeef112233f80000024f
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x000000bc
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x000000c0
+[REGCTRL] WRITE 0x000000c0 = 0xcafebabedeadbeef11223384000003c0
+[REGCTRL] WRITE 0x000000c1 = 0xcafebabedeadbeef11223384000003c1
+[REGCTRL] WRITE 0x000000c2 = 0xcafebabedeadbeef11223384000003c2
+[REGCTRL] WRITE 0x000000c3 = 0xcafebabedeadbeef11223384000003c3
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x000000c0
+[REGCTRL] READ request for addr 0x000000c0
+[REGCTRL] READ request for addr 0x000000c1
+[REGCTRL] READ request for addr 0x000000c2
+[REGCTRL] READ request for addr 0x000000c3
+[REGCTRL] READ OK   Addr: 0x000000c0 Data: 0xcafebabedeadbeef11223384000003c0
+[REGCTRL] READ OK   Addr: 0x000000c1 Data: 0xcafebabedeadbeef11223384000003c1
+[REGCTRL] READ OK   Addr: 0x000000c2 Data: 0xcafebabedeadbeef11223384000003c2
+[REGCTRL] READ OK   Addr: 0x000000c3 Data: 0xcafebabedeadbeef11223384000003c3
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x000000c0
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x000000c4
+[REGCTRL] WRITE 0x000000c4 = 0xcafebabedeadbeef11223380000003d4
+[REGCTRL] WRITE 0x000000c5 = 0xcafebabedeadbeef11223380000003d5
+[REGCTRL] WRITE 0x000000c6 = 0xcafebabedeadbeef11223380000003d6
+[REGCTRL] WRITE 0x000000c7 = 0xcafebabedeadbeef11223380000003d7
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x000000c4
+[REGCTRL] READ request for addr 0x000000c4
+[REGCTRL] READ request for addr 0x000000c5
+[REGCTRL] READ request for addr 0x000000c6
+[REGCTRL] READ request for addr 0x000000c7
+[REGCTRL] READ OK   Addr: 0x000000c4 Data: 0xcafebabedeadbeef11223380000003d4
+[REGCTRL] READ OK   Addr: 0x000000c5 Data: 0xcafebabedeadbeef11223380000003d5
+[REGCTRL] READ OK   Addr: 0x000000c6 Data: 0xcafebabedeadbeef11223380000003d6
+[REGCTRL] READ OK   Addr: 0x000000c7 Data: 0xcafebabedeadbeef11223380000003d7
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x000000c4
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x000000c8
+[REGCTRL] WRITE 0x000000c8 = 0xcafebabedeadbeef1122338c000003e8
+[REGCTRL] WRITE 0x000000c9 = 0xcafebabedeadbeef1122338c000003e9
+[REGCTRL] WRITE 0x000000ca = 0xcafebabedeadbeef1122338c000003ea
+[REGCTRL] WRITE 0x000000cb = 0xcafebabedeadbeef1122338c000003eb
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x000000c8
+[REGCTRL] READ request for addr 0x000000c8
+[REGCTRL] READ request for addr 0x000000c9
+[REGCTRL] READ request for addr 0x000000ca
+[REGCTRL] READ request for addr 0x000000cb
+[REGCTRL] READ OK   Addr: 0x000000c8 Data: 0xcafebabedeadbeef1122338c000003e8
+[REGCTRL] READ OK   Addr: 0x000000c9 Data: 0xcafebabedeadbeef1122338c000003e9
+[REGCTRL] READ OK   Addr: 0x000000ca Data: 0xcafebabedeadbeef1122338c000003ea
+[REGCTRL] READ OK   Addr: 0x000000cb Data: 0xcafebabedeadbeef1122338c000003eb
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x000000c8
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x000000cc
+[REGCTRL] WRITE 0x000000cc = 0xcafebabedeadbeef11223388000003fc
+[REGCTRL] WRITE 0x000000cd = 0xcafebabedeadbeef11223388000003fd
+[REGCTRL] WRITE 0x000000ce = 0xcafebabedeadbeef11223388000003fe
+[REGCTRL] WRITE 0x000000cf = 0xcafebabedeadbeef11223388000003ff
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x000000cc
+[REGCTRL] READ request for addr 0x000000cc
+[REGCTRL] READ request for addr 0x000000cd
+[REGCTRL] READ request for addr 0x000000ce
+[REGCTRL] READ request for addr 0x000000cf
+[REGCTRL] READ OK   Addr: 0x000000cc Data: 0xcafebabedeadbeef11223388000003fc
+[REGCTRL] READ OK   Addr: 0x000000cd Data: 0xcafebabedeadbeef11223388000003fd
+[REGCTRL] READ OK   Addr: 0x000000ce Data: 0xcafebabedeadbeef11223388000003fe
+[REGCTRL] READ OK   Addr: 0x000000cf Data: 0xcafebabedeadbeef11223388000003ff
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x000000cc
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x000000d0
+[REGCTRL] WRITE 0x000000d0 = 0xcafebabedeadbeef1122339400000390
+[REGCTRL] WRITE 0x000000d1 = 0xcafebabedeadbeef1122339400000391
+[REGCTRL] WRITE 0x000000d2 = 0xcafebabedeadbeef1122339400000392
+[REGCTRL] WRITE 0x000000d3 = 0xcafebabedeadbeef1122339400000393
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x000000d0
+[REGCTRL] READ request for addr 0x000000d0
+[REGCTRL] READ request for addr 0x000000d1
+[REGCTRL] READ request for addr 0x000000d2
+[REGCTRL] READ request for addr 0x000000d3
+[REGCTRL] READ OK   Addr: 0x000000d0 Data: 0xcafebabedeadbeef1122339400000390
+[REGCTRL] READ OK   Addr: 0x000000d1 Data: 0xcafebabedeadbeef1122339400000391
+[REGCTRL] READ OK   Addr: 0x000000d2 Data: 0xcafebabedeadbeef1122339400000392
+[REGCTRL] READ OK   Addr: 0x000000d3 Data: 0xcafebabedeadbeef1122339400000393
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x000000d0
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x000000d4
+[REGCTRL] WRITE 0x000000d4 = 0xcafebabedeadbeef1122339000000384
+[REGCTRL] WRITE 0x000000d5 = 0xcafebabedeadbeef1122339000000385
+[REGCTRL] WRITE 0x000000d6 = 0xcafebabedeadbeef1122339000000386
+[REGCTRL] WRITE 0x000000d7 = 0xcafebabedeadbeef1122339000000387
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x000000d4
+[REGCTRL] READ request for addr 0x000000d4
+[REGCTRL] READ request for addr 0x000000d5
+[REGCTRL] READ request for addr 0x000000d6
+[REGCTRL] READ request for addr 0x000000d7
+[REGCTRL] READ OK   Addr: 0x000000d4 Data: 0xcafebabedeadbeef1122339000000384
+[REGCTRL] READ OK   Addr: 0x000000d5 Data: 0xcafebabedeadbeef1122339000000385
+[REGCTRL] READ OK   Addr: 0x000000d6 Data: 0xcafebabedeadbeef1122339000000386
+[REGCTRL] READ OK   Addr: 0x000000d7 Data: 0xcafebabedeadbeef1122339000000387
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x000000d4
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x000000d8
+[REGCTRL] WRITE 0x000000d8 = 0xcafebabedeadbeef1122339c000003b8
+[REGCTRL] WRITE 0x000000d9 = 0xcafebabedeadbeef1122339c000003b9
+[REGCTRL] WRITE 0x000000da = 0xcafebabedeadbeef1122339c000003ba
+[REGCTRL] WRITE 0x000000db = 0xcafebabedeadbeef1122339c000003bb
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x000000d8
+[REGCTRL] READ request for addr 0x000000d8
+[REGCTRL] READ request for addr 0x000000d9
+[REGCTRL] READ request for addr 0x000000da
+[REGCTRL] READ request for addr 0x000000db
+[REGCTRL] READ OK   Addr: 0x000000d8 Data: 0xcafebabedeadbeef1122339c000003b8
+[REGCTRL] READ OK   Addr: 0x000000d9 Data: 0xcafebabedeadbeef1122339c000003b9
+[REGCTRL] READ OK   Addr: 0x000000da Data: 0xcafebabedeadbeef1122339c000003ba
+[REGCTRL] READ OK   Addr: 0x000000db Data: 0xcafebabedeadbeef1122339c000003bb
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x000000d8
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x000000dc
+[REGCTRL] WRITE 0x000000dc = 0xcafebabedeadbeef11223398000003ac
+[REGCTRL] WRITE 0x000000dd = 0xcafebabedeadbeef11223398000003ad
+[REGCTRL] WRITE 0x000000de = 0xcafebabedeadbeef11223398000003ae
+[REGCTRL] WRITE 0x000000df = 0xcafebabedeadbeef11223398000003af
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x000000dc
+[REGCTRL] READ request for addr 0x000000dc
+[REGCTRL] READ request for addr 0x000000dd
+[REGCTRL] READ request for addr 0x000000de
+[REGCTRL] READ request for addr 0x000000df
+[REGCTRL] READ OK   Addr: 0x000000dc Data: 0xcafebabedeadbeef11223398000003ac
+[REGCTRL] READ OK   Addr: 0x000000dd Data: 0xcafebabedeadbeef11223398000003ad
+[REGCTRL] READ OK   Addr: 0x000000de Data: 0xcafebabedeadbeef11223398000003ae
+[REGCTRL] READ OK   Addr: 0x000000df Data: 0xcafebabedeadbeef11223398000003af
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x000000dc
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x000000e0
+[REGCTRL] WRITE 0x000000e0 = 0xcafebabedeadbeef112233a400000360
+[REGCTRL] WRITE 0x000000e1 = 0xcafebabedeadbeef112233a400000361
+[REGCTRL] WRITE 0x000000e2 = 0xcafebabedeadbeef112233a400000362
+[REGCTRL] WRITE 0x000000e3 = 0xcafebabedeadbeef112233a400000363
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x000000e0
+[REGCTRL] READ request for addr 0x000000e0
+[REGCTRL] READ request for addr 0x000000e1
+[REGCTRL] READ request for addr 0x000000e2
+[REGCTRL] READ request for addr 0x000000e3
+[REGCTRL] READ OK   Addr: 0x000000e0 Data: 0xcafebabedeadbeef112233a400000360
+[REGCTRL] READ OK   Addr: 0x000000e1 Data: 0xcafebabedeadbeef112233a400000361
+[REGCTRL] READ OK   Addr: 0x000000e2 Data: 0xcafebabedeadbeef112233a400000362
+[REGCTRL] READ OK   Addr: 0x000000e3 Data: 0xcafebabedeadbeef112233a400000363
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x000000e0
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x000000e4
+[REGCTRL] WRITE 0x000000e4 = 0xcafebabedeadbeef112233a000000374
+[REGCTRL] WRITE 0x000000e5 = 0xcafebabedeadbeef112233a000000375
+[REGCTRL] WRITE 0x000000e6 = 0xcafebabedeadbeef112233a000000376
+[REGCTRL] WRITE 0x000000e7 = 0xcafebabedeadbeef112233a000000377
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x000000e4
+[REGCTRL] READ request for addr 0x000000e4
+[REGCTRL] READ request for addr 0x000000e5
+[REGCTRL] READ request for addr 0x000000e6
+[REGCTRL] READ request for addr 0x000000e7
+[REGCTRL] READ OK   Addr: 0x000000e4 Data: 0xcafebabedeadbeef112233a000000374
+[REGCTRL] READ OK   Addr: 0x000000e5 Data: 0xcafebabedeadbeef112233a000000375
+[REGCTRL] READ OK   Addr: 0x000000e6 Data: 0xcafebabedeadbeef112233a000000376
+[REGCTRL] READ OK   Addr: 0x000000e7 Data: 0xcafebabedeadbeef112233a000000377
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x000000e4
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x000000e8
+[REGCTRL] WRITE 0x000000e8 = 0xcafebabedeadbeef112233ac00000348
+[REGCTRL] WRITE 0x000000e9 = 0xcafebabedeadbeef112233ac00000349
+[REGCTRL] WRITE 0x000000ea = 0xcafebabedeadbeef112233ac0000034a
+[REGCTRL] WRITE 0x000000eb = 0xcafebabedeadbeef112233ac0000034b
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x000000e8
+[REGCTRL] READ request for addr 0x000000e8
+[REGCTRL] READ request for addr 0x000000e9
+[REGCTRL] READ request for addr 0x000000ea
+[REGCTRL] READ request for addr 0x000000eb
+[REGCTRL] READ OK   Addr: 0x000000e8 Data: 0xcafebabedeadbeef112233ac00000348
+[REGCTRL] READ OK   Addr: 0x000000e9 Data: 0xcafebabedeadbeef112233ac00000349
+[REGCTRL] READ OK   Addr: 0x000000ea Data: 0xcafebabedeadbeef112233ac0000034a
+[REGCTRL] READ OK   Addr: 0x000000eb Data: 0xcafebabedeadbeef112233ac0000034b
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x000000e8
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x000000ec
+[REGCTRL] WRITE 0x000000ec = 0xcafebabedeadbeef112233a80000035c
+[REGCTRL] WRITE 0x000000ed = 0xcafebabedeadbeef112233a80000035d
+[REGCTRL] WRITE 0x000000ee = 0xcafebabedeadbeef112233a80000035e
+[REGCTRL] WRITE 0x000000ef = 0xcafebabedeadbeef112233a80000035f
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x000000ec
+[REGCTRL] READ request for addr 0x000000ec
+[REGCTRL] READ request for addr 0x000000ed
+[REGCTRL] READ request for addr 0x000000ee
+[REGCTRL] READ request for addr 0x000000ef
+[REGCTRL] READ OK   Addr: 0x000000ec Data: 0xcafebabedeadbeef112233a80000035c
+[REGCTRL] READ OK   Addr: 0x000000ed Data: 0xcafebabedeadbeef112233a80000035d
+[REGCTRL] READ OK   Addr: 0x000000ee Data: 0xcafebabedeadbeef112233a80000035e
+[REGCTRL] READ OK   Addr: 0x000000ef Data: 0xcafebabedeadbeef112233a80000035f
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x000000ec
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x000000f0
+[REGCTRL] WRITE 0x000000f0 = 0xcafebabedeadbeef112233b400000330
+[REGCTRL] WRITE 0x000000f1 = 0xcafebabedeadbeef112233b400000331
+[REGCTRL] WRITE 0x000000f2 = 0xcafebabedeadbeef112233b400000332
+[REGCTRL] WRITE 0x000000f3 = 0xcafebabedeadbeef112233b400000333
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x000000f0
+[REGCTRL] READ request for addr 0x000000f0
+[REGCTRL] READ request for addr 0x000000f1
+[REGCTRL] READ request for addr 0x000000f2
+[REGCTRL] READ request for addr 0x000000f3
+[REGCTRL] READ OK   Addr: 0x000000f0 Data: 0xcafebabedeadbeef112233b400000330
+[REGCTRL] READ OK   Addr: 0x000000f1 Data: 0xcafebabedeadbeef112233b400000331
+[REGCTRL] READ OK   Addr: 0x000000f2 Data: 0xcafebabedeadbeef112233b400000332
+[REGCTRL] READ OK   Addr: 0x000000f3 Data: 0xcafebabedeadbeef112233b400000333
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x000000f0
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x000000f4
+[REGCTRL] WRITE 0x000000f4 = 0xcafebabedeadbeef112233b000000324
+[REGCTRL] WRITE 0x000000f5 = 0xcafebabedeadbeef112233b000000325
+[REGCTRL] WRITE 0x000000f6 = 0xcafebabedeadbeef112233b000000326
+[REGCTRL] WRITE 0x000000f7 = 0xcafebabedeadbeef112233b000000327
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x000000f4
+[REGCTRL] READ request for addr 0x000000f4
+[REGCTRL] READ request for addr 0x000000f5
+[REGCTRL] READ request for addr 0x000000f6
+[REGCTRL] READ request for addr 0x000000f7
+[REGCTRL] READ OK   Addr: 0x000000f4 Data: 0xcafebabedeadbeef112233b000000324
+[REGCTRL] READ OK   Addr: 0x000000f5 Data: 0xcafebabedeadbeef112233b000000325
+[REGCTRL] READ OK   Addr: 0x000000f6 Data: 0xcafebabedeadbeef112233b000000326
+[REGCTRL] READ OK   Addr: 0x000000f7 Data: 0xcafebabedeadbeef112233b000000327
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x000000f4
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x000000f8
+[REGCTRL] WRITE 0x000000f8 = 0xcafebabedeadbeef112233bc00000318
+[REGCTRL] WRITE 0x000000f9 = 0xcafebabedeadbeef112233bc00000319
+[REGCTRL] WRITE 0x000000fa = 0xcafebabedeadbeef112233bc0000031a
+[REGCTRL] WRITE 0x000000fb = 0xcafebabedeadbeef112233bc0000031b
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x000000f8
+[REGCTRL] READ request for addr 0x000000f8
+[REGCTRL] READ request for addr 0x000000f9
+[REGCTRL] READ request for addr 0x000000fa
+[REGCTRL] READ request for addr 0x000000fb
+[REGCTRL] READ OK   Addr: 0x000000f8 Data: 0xcafebabedeadbeef112233bc00000318
+[REGCTRL] READ OK   Addr: 0x000000f9 Data: 0xcafebabedeadbeef112233bc00000319
+[REGCTRL] READ OK   Addr: 0x000000fa Data: 0xcafebabedeadbeef112233bc0000031a
+[REGCTRL] READ OK   Addr: 0x000000fb Data: 0xcafebabedeadbeef112233bc0000031b
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x000000f8
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Write trigger received. Starting burst write at addr 0x000000fc
+[REGCTRL] WRITE 0x000000fc = 0xcafebabedeadbeef112233b80000030c
+[REGCTRL] WRITE 0x000000fd = 0xcafebabedeadbeef112233b80000030d
+[REGCTRL] WRITE 0x000000fe = 0xcafebabedeadbeef112233b80000030e
+[REGCTRL] WRITE 0x000000ff = 0xcafebabedeadbeef112233b80000030f
+[REGCTRL] Write burst complete.
+[REGCTRL] Returning to IDLE.
+[REGCTRL] Read trigger received. Starting burst read at addr 0x000000fc
+[REGCTRL] READ request for addr 0x000000fc
+[REGCTRL] READ request for addr 0x000000fd
+[REGCTRL] READ request for addr 0x000000fe
+[REGCTRL] READ request for addr 0x000000ff
+[REGCTRL] READ OK   Addr: 0x000000fc Data: 0xcafebabedeadbeef112233b80000030c
+[REGCTRL] READ OK   Addr: 0x000000fd Data: 0xcafebabedeadbeef112233b80000030d
+[REGCTRL] READ OK   Addr: 0x000000fe Data: 0xcafebabedeadbeef112233b80000030e
+[REGCTRL] READ OK   Addr: 0x000000ff Data: 0xcafebabedeadbeef112233b80000030f
+[REGCTRL] Burst read complete and verified.
+[PASS] Verified burst read @ 0x000000fc
+
+================= DDR3 Register Interface Stress Test Complete =================
+Total Burst Blocks Tested: 64
+  Passes: 64
+  Fails : 0
+===============================================================================
+[REGCTRL] Returning to IDLE.
+$finish called from file "ddr3_top.v", line 106.
+$finish at simulation time             25085000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 25085000 ps
+CPU Time:      0.180 seconds;       Data structure size:   0.0Mb
+Mon Apr 21 17:04:22 2025

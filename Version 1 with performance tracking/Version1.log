@@ -1,0 +1,109 @@
+Command: /home/users14/dec71046/526L/project/./simv -l Version1.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP1_Full64; Runtime version U-2023.03-SP1_Full64;  Apr  9 11:06 2025
+Starting full DDR3 system simulation...
+[DDR3_MODEL] WRITE to addr 0x0000000 = 0xcafebabedeadbeef1122334455667788
+[DDR3_MODEL] READ request for addr 0x0000000
+[DDR3_MODEL] READ response from addr 0x0000000 = 0xcafebabedeadbeef1122334455667788
+[DDR3_MODEL] WRITE to addr 0x0000001 = 0xcafebabedeadbeef1122334455667789
+[DDR3_MODEL] READ request for addr 0x0000001
+[DDR3_MODEL] READ response from addr 0x0000001 = 0xcafebabedeadbeef1122334455667789
+[DDR3_MODEL] WRITE to addr 0x0000002 = 0xcafebabedeadbeef112233445566778a
+[DDR3_MODEL] READ request for addr 0x0000002
+[DDR3_MODEL] READ response from addr 0x0000002 = 0xcafebabedeadbeef112233445566778a
+[DDR3_MODEL] WRITE to addr 0x0000003 = 0xcafebabedeadbeef112233445566778b
+[DDR3_MODEL] READ request for addr 0x0000003
+[DDR3_MODEL] READ response from addr 0x0000003 = 0xcafebabedeadbeef112233445566778b
+[DDR3_MODEL] WRITE to addr 0x0000004 = 0xcafebabedeadbeef112233445566778c
+[DDR3_MODEL] READ request for addr 0x0000004
+[DDR3_MODEL] READ response from addr 0x0000004 = 0xcafebabedeadbeef112233445566778c
+[DDR3_MODEL] WRITE to addr 0x0000005 = 0xcafebabedeadbeef112233445566778d
+[DDR3_MODEL] READ request for addr 0x0000005
+[DDR3_MODEL] READ response from addr 0x0000005 = 0xcafebabedeadbeef112233445566778d
+[DDR3_MODEL] WRITE to addr 0x0000006 = 0xcafebabedeadbeef112233445566778e
+[DDR3_MODEL] READ request for addr 0x0000006
+[DDR3_MODEL] READ response from addr 0x0000006 = 0xcafebabedeadbeef112233445566778e
+[DDR3_MODEL] WRITE to addr 0x0000007 = 0xcafebabedeadbeef112233445566778f
+[DDR3_MODEL] READ request for addr 0x0000007
+[DDR3_MODEL] READ response from addr 0x0000007 = 0xcafebabedeadbeef112233445566778f
+[DDR3_MODEL] WRITE to addr 0x0000008 = 0xcafebabedeadbeef1122334455667780
+[DDR3_MODEL] READ request for addr 0x0000008
+[DDR3_MODEL] READ response from addr 0x0000008 = 0xcafebabedeadbeef1122334455667780
+[DDR3_MODEL] WRITE to addr 0x0000009 = 0xcafebabedeadbeef1122334455667781
+[DDR3_MODEL] READ request for addr 0x0000009
+[DDR3_MODEL] READ response from addr 0x0000009 = 0xcafebabedeadbeef1122334455667781
+[DDR3_MODEL] WRITE to addr 0x000000a = 0xcafebabedeadbeef1122334455667782
+[DDR3_MODEL] READ request for addr 0x000000a
+[DDR3_MODEL] READ response from addr 0x000000a = 0xcafebabedeadbeef1122334455667782
+[DDR3_MODEL] WRITE to addr 0x000000b = 0xcafebabedeadbeef1122334455667783
+[DDR3_MODEL] READ request for addr 0x000000b
+[DDR3_MODEL] READ response from addr 0x000000b = 0xcafebabedeadbeef1122334455667783
+[DDR3_MODEL] WRITE to addr 0x000000c = 0xcafebabedeadbeef1122334455667784
+[DDR3_MODEL] READ request for addr 0x000000c
+[DDR3_MODEL] READ response from addr 0x000000c = 0xcafebabedeadbeef1122334455667784
+[DDR3_MODEL] WRITE to addr 0x000000d = 0xcafebabedeadbeef1122334455667785
+[DDR3_MODEL] READ request for addr 0x000000d
+[DDR3_MODEL] READ response from addr 0x000000d = 0xcafebabedeadbeef1122334455667785
+[DDR3_MODEL] WRITE to addr 0x000000e = 0xcafebabedeadbeef1122334455667786
+[DDR3_MODEL] READ request for addr 0x000000e
+[DDR3_MODEL] READ response from addr 0x000000e = 0xcafebabedeadbeef1122334455667786
+[DDR3_MODEL] WRITE to addr 0x000000f = 0xcafebabedeadbeef1122334455667787
+[DDR3_MODEL] READ request for addr 0x000000f
+[DDR3_MODEL] READ response from addr 0x000000f = 0xcafebabedeadbeef1122334455667787
+[DDR3_MODEL] WRITE to addr 0x0000010 = 0xcafebabedeadbeef1122334455667798
+[DDR3_MODEL] READ request for addr 0x0000010
+[DDR3_MODEL] READ response from addr 0x0000010 = 0xcafebabedeadbeef1122334455667798
+[DDR3_MODEL] WRITE to addr 0x0000011 = 0xcafebabedeadbeef1122334455667799
+[DDR3_MODEL] READ request for addr 0x0000011
+[DDR3_MODEL] READ response from addr 0x0000011 = 0xcafebabedeadbeef1122334455667799
+[DDR3_MODEL] WRITE to addr 0x0000012 = 0xcafebabedeadbeef112233445566779a
+[DDR3_MODEL] READ request for addr 0x0000012
+[DDR3_MODEL] READ response from addr 0x0000012 = 0xcafebabedeadbeef112233445566779a
+[DDR3_MODEL] WRITE to addr 0x0000013 = 0xcafebabedeadbeef112233445566779b
+[DDR3_MODEL] READ request for addr 0x0000013
+[DDR3_MODEL] READ response from addr 0x0000013 = 0xcafebabedeadbeef112233445566779b
+[DDR3_MODEL] WRITE to addr 0x0000014 = 0xcafebabedeadbeef112233445566779c
+[DDR3_MODEL] READ request for addr 0x0000014
+[DDR3_MODEL] READ response from addr 0x0000014 = 0xcafebabedeadbeef112233445566779c
+[DDR3_MODEL] WRITE to addr 0x0000015 = 0xcafebabedeadbeef112233445566779d
+[DDR3_MODEL] READ request for addr 0x0000015
+[DDR3_MODEL] READ response from addr 0x0000015 = 0xcafebabedeadbeef112233445566779d
+[DDR3_MODEL] WRITE to addr 0x0000016 = 0xcafebabedeadbeef112233445566779e
+[DDR3_MODEL] READ request for addr 0x0000016
+[DDR3_MODEL] READ response from addr 0x0000016 = 0xcafebabedeadbeef112233445566779e
+[DDR3_MODEL] WRITE to addr 0x0000017 = 0xcafebabedeadbeef112233445566779f
+[DDR3_MODEL] READ request for addr 0x0000017
+[DDR3_MODEL] READ response from addr 0x0000017 = 0xcafebabedeadbeef112233445566779f
+[DDR3_MODEL] WRITE to addr 0x0000018 = 0xcafebabedeadbeef1122334455667790
+[DDR3_MODEL] READ request for addr 0x0000018
+[DDR3_MODEL] READ response from addr 0x0000018 = 0xcafebabedeadbeef1122334455667790
+[DDR3_MODEL] WRITE to addr 0x0000019 = 0xcafebabedeadbeef1122334455667791
+[DDR3_MODEL] READ request for addr 0x0000019
+[DDR3_MODEL] READ response from addr 0x0000019 = 0xcafebabedeadbeef1122334455667791
+[DDR3_MODEL] WRITE to addr 0x000001a = 0xcafebabedeadbeef1122334455667792
+[DDR3_MODEL] READ request for addr 0x000001a
+[DDR3_MODEL] READ response from addr 0x000001a = 0xcafebabedeadbeef1122334455667792
+[DDR3_MODEL] WRITE to addr 0x000001b = 0xcafebabedeadbeef1122334455667793
+[DDR3_MODEL] READ request for addr 0x000001b
+[DDR3_MODEL] READ response from addr 0x000001b = 0xcafebabedeadbeef1122334455667793
+[DDR3_MODEL] WRITE to addr 0x000001c = 0xcafebabedeadbeef1122334455667794
+[DDR3_MODEL] READ request for addr 0x000001c
+[DDR3_MODEL] READ response from addr 0x000001c = 0xcafebabedeadbeef1122334455667794
+[DDR3_MODEL] WRITE to addr 0x000001d = 0xcafebabedeadbeef1122334455667795
+[DDR3_MODEL] READ request for addr 0x000001d
+[DDR3_MODEL] READ response from addr 0x000001d = 0xcafebabedeadbeef1122334455667795
+[DDR3_MODEL] WRITE to addr 0x000001e = 0xcafebabedeadbeef1122334455667796
+[DDR3_MODEL] READ request for addr 0x000001e
+[DDR3_MODEL] READ response from addr 0x000001e = 0xcafebabedeadbeef1122334455667796
+[DDR3_MODEL] WRITE to addr 0x000001f = 0xcafebabedeadbeef1122334455667797
+[DDR3_MODEL] READ request for addr 0x000001f
+[DDR3_MODEL] READ response from addr 0x000001f = 0xcafebabedeadbeef1122334455667797
+✅ TEST PASSED: All transfers correct.
+Transfers: 32, Total Latency: 256 cycles, Avg Latency: 8.00
+$finish called from file "tb_ddr3_full_system.v", line 77.
+$finish at simulation time              4205000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 4205000 ps
+CPU Time:      0.170 seconds;       Data structure size:   0.0Mb
+Wed Apr  9 11:06:23 2025

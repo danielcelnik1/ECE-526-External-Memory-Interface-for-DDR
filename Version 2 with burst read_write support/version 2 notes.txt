@@ -1,0 +1,87 @@
+Here is how we implement burst read/write support:
+
+1. Updating the ddr3_model to feature a FIFO to handle multiple reads
+rd_addr_fifo: stores the addresses of each read request
+    -each time app_en && app_cmd == 3'b001, a new address is pushed into the FIFO
+    -acts as a buffer for all the read requests waiting to be processed
+rd_timer_fifo: stores the remaining delay time for each queued read request
+    -when rd_timer_fifo[i] reaches 0, that read request is ready and a response is statement
+    -models the variable latency of a real memory controller
+fifo_head: index of the next read response to process
+    -points to the oldest entry (first-in) and pops off read requests when their delay hits 0
+fifo_tail: index where the next new read request will be written
+    -moves forward every time a new request is enqueued
+fifo_count: keeps track of how many entries are currently in the queued
+    -used to prevent overflow or underflow
+
+DDR_MODULE
+-----------------------------------------------------------------------------------------------
+for (i = 0; i < FIFO_DEPTH; i = i + 1) begin
+    rd_timer_fifo[i] = 0;
+    rd_addr_fifo[i] = 0;
+end
+
+this block clears all entries in the read address and delay timer FIFOs, preventing random/unknown values from triggering unexpected reads and ensuring that the memory model starts with an empty, stable state.
+
+
+
+reg [27:0] rd_addr_fifo [0:FIFO_DEPTH-1];
+
+this is a fifo with 16 entries where each entry is a 28-bit read address.
+
+
+
+if (app_en && app_cmd == 3'b001 && fifo_count < FIFO_DEPTH) begin
+    rd_addr_fifo[fifo_tail] <= app_addr;
+    rd_timer_fifo[fifo_tail] <= LATENCY_CYCLES;
+    fifo_tail <= fifo_tail + 1;
+    fifo_count <= fifo_count + 1;
+end
+
+When a read is issued, the address is saved to the fifo, the countdown timer is set for that address, and the fifo tail advances one entry. We increment fifo_count to show that the fifo has filled one entry during this process.
+
+
+
+if (fifo_count > 0) begin
+    if (rd_timer_fifo[fifo_head] > 0) begin
+        rd_timer_fifo[fifo_head] <= rd_timer_fifo[fifo_head] - 1;
+
+Every clock cycle, we check the oldest entry (head). Specifically, we check if the front of the fifo has a nonzero timer; if it does, we count it down. Once the timer hits zero, the following code executes:
+
+end else begin
+        app_rd_data <= mem_array[rd_addr_fifo[fifo_head]];
+        app_rd_data_valid <= 1;
+        fifo_head <= fifo_head + 1;
+        fifo_count <= fifo_count - 1;
+    end
+
+Here, we return the memory value at the current address and flag that the memory read is valid for 1 cycle. We then advance the fifo_head and decrease the fifo count since we have now dealt with that entry.
+
+
+
+
+ddr3_interface
+----------------------------------------------------------------------------------------------
+the status [1:0] signal tells the testbench whether the test completed sucessfully or not. When it's in the 2'b00 state, that means the test is in progress.
+
+the transfer_counter [31:0] signal tracks the total number of transfers that were sucessfully verified.
+
+the cycle_counter [31:0] signal accumuates the latency for all read bursts and is incremented after each burst by the measured latency (in another counter called latency_counter). 
+
+Using the previous two counters, we are able to calculate the average latency via:
+avg_latency = cycle_counter / transfer_counter;
+
+read_resp_counter counts how many read responses (RD_VALID) have been recieved in the current burst. We increment this with each read response and then use it to read each incrementing address in the burst via:
+compare_expected = base_pattern ^ (addr + read_resp_counter);
+
+read_req_counter tracks how many read requests have been issuesd in the current burst. The FSM will issue one read command per cycle until the read_req_counter reaches BURST_LENGTH.
+
+The previous two counters are used in tandem to keep track of the sent and recieved read requests. read_req_counter increments as the read requests are sent. Once the RD_VALID signal is exerted, read_resp_counter will increment to verify that the data comparision can take place address by address.
+
+FSM:
+1. S_IDLE prepares a new burst, resets all counters and flags, calculates expected_data, and transitions to the next state.
+2. S_WRITE issues the first write of the burst by enabling the write signals.
+3. S_WRITE_BURST writes the other 3 words of the burst and uses burst_counter to track this progress. It additionally increments the address and data pattern at each address.
+4. S_WAIT_BEFORE_READ waits 3 cycles to ensure the memory model has time to accept the writes
+5. S_READ sets up the read burst signals, resets all counters, and starts measuring latency
+6. S_READ_BURST issues one read request per cycle and tracks the incoming RD_VALID responses. It also compares each read piece of data to the expected_data. If all are okay, this state will increment transfer_counter and add latency to cycle_counter before incrementing the base address and returning the FSM back to S_IDLE
